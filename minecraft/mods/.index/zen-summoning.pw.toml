@@ -1,0 +1,13 @@
+name = "Zen Summoning"
+filename = "Zen Summoning-1.12-1.1.2.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "4c496e82a4bb3bd408bd58a6861273ecde1abb9a"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3408149
+project-id = 310029

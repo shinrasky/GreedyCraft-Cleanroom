@@ -1,0 +1,270 @@
+{
+	title: "{greedycraft.quest.464fff41.title}",
+	icon: "minecraft:diamond",
+	x: 0.0d,
+	y: -2.0d,
+	shape: "rsquare",
+	description: "{greedycraft.quest.464fff41.desc}",
+	text: [
+		"§e§e/dank/null的使用方法请参阅整合包手册"
+	],
+	dependencies: [
+		"bb3d9aaa"
+	],
+	tasks: [{
+		uid: "1662845c",
+		type: "item",
+		title: "Any gemDiamond",
+		items: [{
+			id: "itemfilters:filter",
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "gemDiamond"
+				}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "90a6ab84",
+		type: "xp",
+		xp: 250
+	},
+	{
+		uid: "53e6b1b7",
+		type: "item",
+		item: "minecraft:bread",
+		count: 10
+	},
+	{
+		uid: "b7d5745d",
+		type: "loot",
+		table: 0
+	},
+	{
+		uid: "5d244c49",
+		type: "item",
+		item: {
+			id: "retro_sophisticated_backpacks:backpack_iron",
+			ForgeCaps: {
+				Parent: {
+					MemoryRespectNBT: [B;
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b
+					],
+					LockedSlots: [B;
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b
+					],
+					AccentColor: -10342886,
+					UUIDMost: -2271198816184481046L,
+					UpgradeSlotsSize: 2,
+					MemoryItems: {
+						Items: []
+					},
+					BackpackInventory: {
+						Items: []
+					},
+					MainColor: -3382982,
+					SortType: 0b,
+					BackpackInventorySize: 54,
+					UpgradeSlots: {
+						Items: []
+					},
+					UUIDLeast: -5426106996185681881L
+				},
+				"retro_sophisticated_backpacks:backpack_capability": {
+					MemoryRespectNBT: [B;
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b
+					],
+					LockedSlots: [B;
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b
+					],
+					AccentColor: -10342886,
+					UUIDMost: -5205883649498267411L,
+					UpgradeSlotsSize: 1,
+					MemoryItems: {
+						Items: []
+					},
+					BackpackInventory: {
+						Items: []
+					},
+					MainColor: -3382982,
+					SortType: 0b,
+					BackpackInventorySize: 27,
+					UpgradeSlots: {
+						Items: []
+					},
+					UUIDLeast: -7231892783645667858L
+				}
+			}
+		}
+	},
+	{
+		uid: "0051cc2e",
+		type: "item",
+		item: "additions:medkit_small",
+		count: 2
+	},
+	{
+		uid: "18a3b977",
+		type: "item",
+		item: "prefab:item_start_house"
+	}]
+}

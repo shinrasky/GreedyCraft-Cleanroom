@@ -1,0 +1,13 @@
+name = "OnlyOneItem"
+filename = "only_one_item-1.2.4.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "5eda0ae349c8affd54613e590f509ac8b65100e5"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7380100
+project-id = 1321528

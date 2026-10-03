@@ -1,0 +1,15 @@
+{
+  "dimensions": [
+    {
+      "dim": 103,
+      "spawn_structure": {
+	      "name": "order_island.nbt",
+	      "rotation": "none",
+	      "mirror": "none",
+	      "centered": true,
+	      "offset": [0, -8, 0],
+	      "load_around": 1
+      }
+    }
+  ]
+}

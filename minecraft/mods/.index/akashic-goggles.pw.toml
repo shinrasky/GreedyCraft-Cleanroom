@@ -1,0 +1,13 @@
+name = 'Akashic Goggles'
+filename = 'Akashic-Goggles-v1.0.2-mc1.12.2.jar'
+side = 'both'
+
+[download]
+hash-format = 'sha1'
+hash = '5da8c5133948e75ba197347621a76c5164912405'
+mode = 'metadata:curseforge'
+
+[update]
+[update.curseforge]
+file-id = 7852898
+project-id = 1304321

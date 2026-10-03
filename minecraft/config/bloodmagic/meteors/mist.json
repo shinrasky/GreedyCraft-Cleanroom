@@ -1,0 +1,36 @@
+{
+    "catalystStack": {
+      "registryName": {
+        "domain": "plustic",
+        "path": "osgloglasblock"
+      },
+      "meta": 0
+    },
+    "components": [
+      {
+        "weight": 600,
+        "oreName": "stoneFoggy"
+      },
+      {
+        "weight": 50,
+        "oreName": "oreRuthenium"
+      },
+      {
+        "weight": 50,
+        "oreName": "oreBismuth"
+      },
+      {
+        "weight": 20,
+        "oreName": "oreRhodium"
+      },
+      {
+        "weight": 50,
+        "oreName": "oreNiobium"
+      }
+    ],
+    "explosionStrength": 10.0,
+    "radius": 8,
+    "maxWeight": 1100,
+    "version": 4,
+    "cost": 2000000
+  }
