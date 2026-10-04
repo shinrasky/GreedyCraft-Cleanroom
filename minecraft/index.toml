@@ -14142,7 +14142,7 @@ hash = "a4345da0b86c00104bc05921d7d04ba5a1b30afc9600cc75851902b8a8036f4b"
 
 [[files]]
 file = "config/homoium.cfg"
-hash = "3c98479423d0ac375d7a751a9faef3bebc247c9d3f1d928931b9c6e0f4811d0b"
+hash = "a46dcda3415858db262b5b98644eb141c785fe818c721be42084ae26ea2197e2"
 
 [[files]]
 file = "config/hookt.module.Hookt.cfg"
