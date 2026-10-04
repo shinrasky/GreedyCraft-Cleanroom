@@ -1,0 +1,323 @@
+{
+    "entries" : [
+        {
+            "key": "ABYSSISM_STARTING",
+            "name": "tc.research.ABYSSISM_STARTING.name",
+            "icons": ["gct_aby:eye_of_abyss"],
+            "category": "ABYSSISM",
+            "location": [0, 0],
+            "parents": ["FIRSTSTEPS"],
+            "reward_knowledge": ["OBSERVATION;ABYSSISM;1"],
+            "stages": [
+                {
+                    "text": "tc.research.ABYSSISM_STARTING.stage.1",
+                    "required_research": ["ABYSSALNOMICON;abyssalcraft:textures/items/abyssalnomicon.png"]
+                },
+                {
+                    "text": "tc.research.ABYSSISM_STARTING.stage.2",
+                    "recipes": ["gct_aby:eye_of_abyss"],
+                    "required_item": ["gct_aby:eye_of_abyss"],
+                    "warp": 15
+                },
+                {
+                    "text": "tc.research.ABYSSISM_STARTING.stage.3",
+                    "recipes": ["gct_aby:eye_of_abyss"]
+                }
+            ]
+        },
+        {
+            "key": "CTHULHU",
+            "name": "tc.research.CTHULHU.name",
+            "icons": ["abyssalcraft:materializer", "thaumcraft:crystal_essence;1;0;{Aspects: [{amount: 1, key: \"cthulhu\"}]}"],
+            "category": "ABYSSISM",
+            "location": [3, 0],
+            "parents": ["ABYSSISM_STARTING"],
+            "reward_knowledge": ["OBSERVATION;ABYSSISM;1"],
+            "stages": [
+                {
+                    "text": "tc.research.CTHULHU.stage.1",
+                    "required_item": ["thaumcraft:crystal_essence;1;0;{Aspects: [{amount: 1, key: \"cthulhu\"}]}"]
+                },
+                {
+                    "text": "tc.research.CTHULHU.stage.2"
+                }
+            ]
+        },
+        {
+            "key": "SANCHECK",
+            "name": "tc.research.SANCHECK.name",
+            "icons": ["gct_aby:sanity_observer"],
+            "category": "ABYSSISM",
+            "location": [0, 3],
+            "parents": ["ABYSSISM_STARTING"],
+            "stages": [
+                {
+                    "text": "tc.research.SANCHECK.stage.1",
+                    "required_craft": ["gct_aby:sanity_observer"],
+                    "recipes": ["thaumcraft:sanity_checker_abyss"]
+                },
+                {
+                    "text": "tc.research.SANCHECK.stage.1",
+                    "recipes": ["thaumcraft:sanity_checker_abyss"]
+                }
+            ]
+        },
+        {
+            "key": "MINDFRUIT",
+            "name": "tc.research.MINDFRUIT.name",
+            "icons": ["gct_aby:fruit_of_mind"],
+            "category": "ABYSSISM",
+            "location": [-2, 5],
+            "parents": ["SANCHECK"],
+            "stages": [
+                {
+                    "text": "tc.research.MINDFRUIT.stage.1",
+                    "required_craft": ["gct_aby:fruit_of_mind"],
+                    "recipes": ["thaumcraft:mind_fruit", "thaumcraft:mind_fruit_enchanted"]
+                },
+                {
+                    "text": "tc.research.MINDFRUIT.stage.1",
+                    "recipes": ["thaumcraft:mind_fruit", "thaumcraft:mind_fruit_enchanted"]
+                }
+            ]
+        },
+        {
+            "key": "SHOGGOTH_COMPLEX_CRYSTAL",
+            "name": "tc.research.SHOGGOTH_COMPLEX_CRYSTAL.name",
+            "icons": ["gct_aby:shoggoth_complex_crystal"],
+            "category": "ABYSSISM",
+            "location": [5, 2],
+            "parents": ["CTHULHU"],
+            "stages": [
+                {
+                    "text": "tc.research.SHOGGOTH_COMPLEX_CRYSTAL.stage.1",
+                    "required_craft": ["gct_aby:shoggoth_complex_crystal"],
+                    "recipes": ["thaumcraft:shoggothComplexCrystal"]
+                },
+                {
+                    "text": "tc.research.SHOGGOTH_COMPLEX_CRYSTAL.stage.2",
+                    "recipes": ["thaumcraft:shoggothComplexCrystal"]
+                }
+            ]
+        },
+        {
+            "key": "SHOGGOTH_MUD_COLLECTION",
+            "name": "tc.research.SHOGGOTH_MUD_COLLECTION.name",
+            "icons": ["gct_aby:sanite_siphon", "gct_aby:shoggoth_slimeball"],
+            "category": "ABYSSISM",
+            "location": [5, -2],
+            "parents": ["CTHULHU"],
+            "stages": [
+                {
+                    "text": "tc.research.SHOGGOTH_MUD_COLLECTION.stage.1",
+                    "required_craft": ["gct_aby:sanite_siphon"],
+                    "recipes": ["thaumcraft:saniteSiphon"]
+                },
+                {
+                    "text": "tc.research.SHOGGOTH_MUD_COLLECTION.stage.2",
+                    "required_item": ["gct_aby:shoggoth_slimeball"],
+                    "recipes": ["thaumcraft:saniteSiphon"]
+                },
+                {
+                    "text": "tc.research.SHOGGOTH_MUD_COLLECTION.stage.3",
+                    "recipes": ["thaumcraft:saniteSiphon"]
+                }
+            ]
+        },
+        {
+            "key": "ABYSSISM_MOBS",
+            "name": "tc.research.ABYSSISM_MOBS.name",
+            "icons": [
+                "ageofminecraft:shadowbeast",
+                "ageofminecraft:spectraldragon",
+                "ageofminecraft:dreadguard",
+                "ageofminecraft:gatekeeperminion",
+                "ageofminecraft:shoggoth"
+            ],
+            "category": "ABYSSISM",
+            "location": [-3, 0],
+            "parents": ["ABYSSISM_STARTING"],
+            "stages": [
+                {
+                    "text": "tc.research.ABYSSISM_MOBS.stage.1",
+                    "required_research": [
+                        "SHADOW_BEAST;ageofminecraft:textures/items/abyssalcraft/shadowbeast.png",
+                        "SPECTRAL_DRAGON;ageofminecraft:textures/items/abyssalcraft/spectraldragon.png",
+                        "DREAD_GUARD;ageofminecraft:textures/items/abyssalcraft/dreadguard.png",
+                        "MINION_OF_GATEKEEPER;ageofminecraft:textures/items/abyssalcraft/minionofthegatekeeper.png",
+                        "LESSER_SHOGGOTH;ageofminecraft:textures/items/abyssalcraft/shoggoth.png"
+                    ]
+                },
+                {
+                    "text": "tc.research.ABYSSISM_MOBS.stage.2",
+                    "warp": 10
+                }
+            ]
+        },
+        {
+            "key": "ABYSSISM_MOBS_SHOGGOTH",
+            "name": "tc.research.ABYSSISM_MOBS_SHOGGOTH.name",
+            "icons": ["ageofminecraft:shoggoth"],
+            "category": "ABYSSISM",
+            "location": [-6, 0],
+            "parents": ["ABYSSISM_MOBS"],
+            "stages": [
+                {
+                    "text": "tc.research.ABYSSISM_MOBS_SHOGGOTH.stage.1",
+                    "required_research": [
+                        "LESSER_SHOGGOTH_ACTIVE;ageofminecraft:textures/items/abyssalcraft/shoggoth.png"
+                    ]
+                },
+                {
+                    "text": "tc.research.ABYSSISM_MOBS_SHOGGOTH.stage.2",
+                    "required_research": [
+                        "MIXTURE_SHOGGOTH;ageofminecraft:textures/items/abyssalcraft/shoggoth.png"
+                    ]
+                },
+                {
+                    "text": "tc.research.ABYSSISM_MOBS_SHOGGOTH.stage.3",
+                    "warp": 5
+                }
+            ]
+        },
+        {
+            "key": "ABYSS_WAND",
+            "name": "tc.research.ABYSS_WAND.name",
+            "icons": ["gct_aby:abyss_wand"],
+            "category": "ABYSSISM",
+            "location": [8, 2],
+            "parents": ["SHOGGOTH_COMPLEX_CRYSTAL"],
+            "stages": [
+                {
+                    "text": "tc.research.ABYSS_WAND.stage.1",
+                    "required_research": [
+                        "ABYSS_WAND;gct_aby:textures/items/sanite_controller.png"
+                    ]
+                }
+            ]
+        },
+        {
+            "key": "MUDDY_FLESH",
+            "name": "tc.research.MUDDY_FLESH.name",
+            "icons": ["gct_aby:muddy_flesh"],
+            "category": "ABYSSISM",
+            "location": [8, -2],
+            "parents": ["ABYSS_WAND", "SHOGGOTH_MUD_COLLECTION"],
+            "reward_item": ["gct_aby:muddy_flesh"],
+            "stages": [
+                {
+                    "text": "tc.research.MUDDY_FLESH.stage.1"
+                },
+                {
+                    "text": "tc.research.MUDDY_FLESH.stage.2",
+                    "required_item": ["gct_aby:muddy_flesh"],
+                    "warp": 5
+                }
+            ]
+        },
+        {
+            "key": "BLOODY_SHOGGOTH",
+            "name": "tc.research.BLOODY_SHOGGOTH.name",
+            "icons": ["abyssalcraft:dreadshard"],
+            "category": "ABYSSISM",
+            "location": [-9, 0],
+            "parents": ["ABYSSISM_MOBS_SHOGGOTH"],
+            "stages": [
+                {
+                    "text": "tc.research.BLOODY_SHOGGOTH.stage.1",
+                    "required_research": [
+                        "BLOODYSHOGGOTH;abyssalcraft:textures/items/dsoa.png"
+                    ]
+                },
+                {
+                    "text": "tc.research.BLOODY_SHOGGOTH.stage.2",
+                    "warp": 10
+                }
+            ]
+        },
+        {
+            "key": "ANCIENT_SHOGGOTH",
+            "name": "tc.research.ANCIENT_SHOGGOTH.name",
+            "icons": ["gct_aby:ancient_shoggoth_mud"],
+            "category": "ABYSSISM",
+            "location": [-12, 0],
+            "parents": ["BLOODY_SHOGGOTH"],
+            "reward_item": ["gct_aby:ancient_shoggoth_mud"],
+            "stages": [
+                {
+                    "text": "tc.research.ANCIENT_SHOGGOTH.stage.1",
+                    "required_item": ["gct_aby:ancient_shoggoth_mud"]
+                },
+                {
+                    "text": "tc.research.ANCIENT_SHOGGOTH.stage.2",
+                    "warp": 10
+                }
+            ]
+        },
+        {
+            "key": "ABYSSISM_MOBS_REMNANT",
+            "name": "tc.research.ABYSSISM_MOBS_REMNANT.name",
+            "icons": ["additions:annihilation_capacitor_empty"],
+            "category": "ABYSSISM",
+            "location": [-5, -2],
+            "parents": ["ABYSSISM_MOBS"],
+            "reward_item": ["additions:annihilation_capacitor_empty"],
+            "stages": [
+                {
+                    "text": "tc.research.ABYSSISM_MOBS_REMNANT.stage.1",
+                    "required_item": ["additions:annihilation_capacitor_empty"],
+                    "warp": 3
+                }
+            ]
+        },
+        {
+            "key": "REMNANT_SOUL",
+            "name": "tc.research.REMNANT_SOUL.name",
+            "icons": ["additions:remnant_soul"],
+            "category": "ABYSSISM",
+            "location": [-8, -2],
+            "parents": ["ABYSSISM_MOBS_REMNANT"],
+            "reward_item": ["additions:remnant_soul"],
+            "stages": [
+                {
+                    "text": "tc.research.REMNANT_SOUL.stage.1",
+                    "required_item": ["additions:remnant_soul"],
+                    "warp": 5
+                }
+            ]
+        },
+        {
+            "key": "DATA_COPY",
+            "name": "tc.research.DATA_COPY.name",
+            "icons": ["additions:remnant_data"],
+            "category": "ABYSSISM",
+            "location": [-8, -5],
+            "parents": ["REMNANT_SOUL"],
+            "reward_item": ["additions:remnant_data"],
+            "stages": [
+                {
+                    "text": "tc.research.DATA_COPY.stage.1"
+                }
+            ]
+        },
+        {
+            "key": "REMNANT_COIN",
+            "name": "tc.research.REMNANT_COIN.name",
+            "icons": ["additions:abyss_remnant_coin"],
+            "category": "ABYSSISM",
+            "location": [-11, -2],
+            "parents": ["REMNANT_SOUL"],
+            "reward_item": ["additions:abyss_remnant_coin;10","additions:remnant_data;5"],
+            "stages": [
+                {
+                    "text": "tc.research.REMNANT_COIN.stage.1",
+                    "required_item": ["additions:abyss_remnant_coin"],
+                    "warp": 5
+                },
+                {
+                    "text": "tc.research.REMNANT_COIN.stage.2"
+                }
+            ]
+        }
+    ]
+}

@@ -1,6 +1,0 @@
-{
-  "parent": "item/generated",
-  "textures": {
-    "layer0": "additions:items/fake_philosopher_stone-layer0"
-  }
-}

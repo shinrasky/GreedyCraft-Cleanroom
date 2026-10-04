@@ -1,0 +1,2346 @@
+{
+    "dependencies": "gct_ores",
+    "populate": {
+        "aetherium": {
+            "enabled": "true",
+            "distribution": "uniform",
+            "generator": {
+                "block": [{
+                    "name": "additions:aetherium_ore",
+                    "weight": 3
+                },{
+                    "name": "aether_legacy:quicksoil",
+                    "weight": 97
+                }],
+                "material": [{
+                    "name": "aether_legacy:holystone"
+                },{
+                    "name": "aether_legacy:quicksoil"
+                }],
+                "cluster-size": 40
+            },
+            "min-height": 15,
+            "max-height": 65,
+            "cluster-count": 1,
+            "retrogen": "true",
+            "dimension": {
+                "restriction": "whitelist",
+                "value": [173]
+            }
+        },
+        "thyminite": {
+            "enabled": "true",
+            "distribution": "uniform",
+            "generator": {
+                "block": [{
+                    "name": "additions:thyminite_ore",
+                    "weight": 100
+                }],
+                "material": "biomesoplenty:ash_block",
+                "cluster-size": 4
+            },
+            "min-height": 25,
+            "max-height": 105,
+            "cluster-count": 5,
+            "retrogen": "true",
+            "dimension": {
+                "restriction": "whitelist",
+                "value": [-1]
+            }
+        },
+        "bnightium": {
+            "enabled": "true",
+            "distribution": "uniform",
+            "generator": {
+                "block": [{
+                    "name": "additions:bnightium_ore",
+                    "weight": 100
+                }],
+                "material": "abyssalcraft:stone",
+                "cluster-size": 1
+            },
+            "min-height": 3,
+            "max-height": 65,
+            "cluster-count": 2,
+            "retrogen": "true",
+            "dimension": {
+                "restriction": "whitelist",
+                "value": [53]
+            }
+        },
+        "guaninite": {
+            "enabled": "true",
+            "distribution": "uniform",
+            "generator": {
+                "block": [{
+                    "name":"additions:guaninite_ore",
+                    "weight": 100
+                }],
+                "material": "abyssalcraft:abyssalsand",
+                "cluster-size": 2
+            },
+            "min-height": 57,
+            "max-height": 78,
+            "cluster-count": 10,
+            "retrogen": "true",
+            "dimension": {
+                "restriction": "whitelist",
+                "value": [50]
+            }
+        },
+        "freezite": {
+            "enabled": "true",
+            "distribution": "uniform",
+            "generator": {
+                "block": [{
+                    "name":"additions:freezite_ore",
+                    "weight": 100
+                }],
+                "material": "netherex:frostburn_ice",
+                "cluster-size": 2
+            },
+            "min-height": 15,
+            "max-height": 95,
+            "cluster-count": 4,
+            "retrogen": "true",
+            "dimension": {
+                "restriction": "whitelist",
+                "value": [-1]
+            }
+        },
+        "oceanium": {
+            "enabled": "true",
+            "distribution": "uniform",
+            "generator": {
+                "block": [{
+                    "name": "additions:oceanium_ore",
+                    "weight": 100
+                }],
+                "material": "quark:elder_prismarine",
+                "cluster-size": 1
+            },
+            "min-height": 10,
+            "max-height": 40,
+            "cluster-count": 3,
+            "retrogen": "true",
+            "dimension": {
+                "restriction": "blacklist",
+                "value": [1, -1]
+            }
+        },
+        "void_obsidian": {
+            "enabled": "true",
+            "distribution": "uniform",
+            "generator": {
+                "block": [{
+                    "name": "minecraft:obsidian",
+                    "weight": 95
+                }, {
+                    "name": "additions:void_harcadium_ore",
+                    "weight": 4
+                }, {
+                    "name": "additions:void_ore",
+                    "weight": 1
+                }],
+                "material": "minecraft:bedrock",
+                "cluster-size": 64
+            },
+            "max-height": 255,
+            "min-height": 1,
+            "cluster-count": 16,
+            "retrogen": "true",
+            "dimension": {
+                "restriction": "whitelist",
+                "value": [100]
+            }
+        },
+        "harcadium_overworld": {
+            "enabled": "true",
+            "distribution": "uniform",
+            "generator": {
+                "block": [{
+                    "name": "additions:harcadium_ore",
+                    "weight": 100
+                }],
+                "material": "minecraft:stone",
+                "cluster-size": 1
+            },
+            "max-height": 10,
+            "min-height": 1,
+            "cluster-count": 1,
+            "retrogen": "true",
+            "dimension": {
+                "restriction": "blacklist",
+                "value": [1, -1]
+            }
+        },
+        "harcadium_nether": {
+            "enabled": "true",
+            "distribution": "uniform",
+            "generator": {
+                "block": [{
+                    "name": "additions:nether_harcadium_ore",
+                    "weight": 100
+                }],
+                "material": "minecraft:netherrack",
+                "cluster-size": 1
+            },
+            "max-height": 128,
+            "min-height": 1,
+            "cluster-count": 1,
+            "retrogen": "true",
+            "dimension": {
+                "restriction": "whitelist",
+                "value": [-1]
+            }
+        },
+        "harcadium_end": {
+            "enabled": "true",
+            "distribution": "uniform",
+            "generator": {
+                "block": [{
+                    "name": "additions:end_harcadium_ore",
+                    "weight": 100
+                }],
+                "material": "minecraft:end_stone",
+                "cluster-size": 4
+            },
+            "max-height": 128,
+            "min-height": 1,
+            "cluster-count": 2,
+            "retrogen": "true",
+            "dimension": {
+                "restriction": "whitelist",
+                "value": [1]
+            }
+        },
+        "nowhere_obsidian": {
+            "enabled": "true",
+            "distribution": "uniform",
+            "generator": {
+                "block": [{
+                    "name": "minecraft:obsidian",
+                    "weight": 90
+                }, {
+                    "name": "additions:void_harcadium_ore",
+                    "weight": 6
+                }, {
+                    "name": "additions:void_ore",
+                    "weight": 3
+                }, {
+                    "name": "additions:adamantium_ore",
+                    "weight": 1
+                }],
+                "material": "minecraft:obsidian",
+                "cluster-size": 64
+            },
+            "max-height": 255,
+            "min-height": 1,
+            "cluster-count": 16,
+            "retrogen": "true",
+            "dimension": {
+                "restriction": "whitelist",
+                "value": [101]
+            }
+        },
+        "iceika_iciricium_ore": {
+            "enabled": "true",
+            "distribution": "uniform",
+            "generator": {
+                "block": [{
+                    "name": "additions:iciricium_ore",
+                    "weight": 100
+                }],
+                "material": "divinerpg:frozen_stone",
+                "cluster-size": 4
+            },
+            "max-height": 40,
+            "min-height": 1,
+            "cluster-count": 3,
+            "retrogen": "true",
+            "dimension": {
+                "restriction": "whitelist",
+                "value": [425]
+            }
+        },
+        "manasteel": {
+            "enabled": "true",
+            "distribution": "uniform",
+            "generator": {
+                "block": [{
+                    "name": "additions:manasteel_ore",
+                    "weight": 100
+                }],
+                "material": "minecraft:stone",
+                "cluster-size": 8
+            },
+            "max-height": 55,
+            "min-height": 1,
+            "cluster-count": 6,
+            "retrogen": "true",
+            "dimension": {
+                "restriction": "whitelist",
+                "value": [0]
+            },
+            "biome": {
+                "restriction": "whitelist",
+                "value": "gct_mobs:mana_forest"
+            }
+        },
+        "manadiamond": {
+            "enabled": "true",
+            "distribution": "uniform",
+            "generator": {
+                "block": [{
+                    "name": "additions:manadiamond_ore",
+                    "weight": 100
+                }],
+                "material": "minecraft:stone",
+                "cluster-size": 6
+            },
+            "max-height": 20,
+            "min-height": 1,
+            "cluster-count": 2,
+            "retrogen": "true",
+            "dimension": {
+                "restriction": "whitelist",
+                "value": [0]
+            },
+            "biome": {
+                "restriction": "whitelist",
+                "value": "gct_mobs:mana_forest"
+            }
+        },
+        "manalapis": {
+            "enabled": "true",
+            "distribution": "uniform",
+            "generator": {
+                "block": [{
+                    "name": "additions:manalapis_ore",
+                    "weight": 100
+                }],
+                "material": "minecraft:stone",
+                "cluster-size": 8
+            },
+            "max-height": 36,
+            "min-height": 1,
+            "cluster-count": 3,
+            "retrogen": "true",
+            "dimension": {
+                "restriction": "whitelist",
+                "value": [0]
+            },
+            "biome": {
+                "restriction": "whitelist",
+                "value": "gct_mobs:mana_forest"
+            }
+        },
+        "manaquartz": {
+            "enabled": "true",
+            "distribution": "uniform",
+            "generator": {
+                "block": [{
+                    "name": "additions:manaquartz_ore",
+                    "weight": 100
+                }],
+                "material": "minecraft:stone",
+                "cluster-size": 12
+            },
+            "max-height": 36,
+            "min-height": 1,
+            "cluster-count": 4,
+            "retrogen": "true",
+            "dimension": {
+                "restriction": "whitelist",
+                "value": [0]
+            },
+            "biome": {
+                "restriction": "whitelist",
+                "value": "gct_mobs:mana_forest"
+            }
+        },
+        "chillinium": {
+            "enabled": "true",
+            "distribution": "uniform",
+            "generator": {
+                "block": [{
+                    "name": "additions:chillinium_ore",
+                    "weight": 100
+                }],
+                "material": "journey:frozendirt",
+                "cluster-size": 3
+            },
+            "max-height": 36,
+            "min-height": 1,
+            "cluster-count": 3,
+            "retrogen": "true",
+            "dimension": {
+                "restriction": "blacklist",
+                "value": [1, -1, 0]
+            }
+        },
+        "germanium": {
+            "enabled": "true",
+            "distribution": "uniform",
+            "generator": {
+                "block": [{
+                    "name": "additions:germanium_ore",
+                    "weight": 100
+                }],
+                "material": "journey:frozendirt",
+                "cluster-size": 1
+            },
+            "max-height": 36,
+            "min-height": 1,
+            "cluster-count": 4,
+            "retrogen": "true",
+            "dimension": {
+                "restriction": "blacklist",
+                "value": [1, -1, 0]
+            }
+        },
+        "flamium": {
+            "enabled": "true",
+            "distribution": "uniform",
+            "generator": {
+                "block": [{
+                    "name": "additions:flamium_ore",
+                    "weight": 100
+                }],
+                "material": "journey:ashblock",
+                "cluster-size": 3
+            },
+            "max-height": 36,
+            "min-height": 1,
+            "cluster-count": 3,
+            "retrogen": "true",
+            "dimension": {
+                "restriction": "blacklist",
+                "value": [1, -1, 0]
+            }
+        },
+        "iceika_shards_ore": {
+            "enabled": "true",
+            "distribution": "uniform",
+            "generator": {
+                "block": [{
+                    "name": "additions:shards_corrupted_ore",
+                    "weight": 20
+                }, {
+                    "name": "additions:shards_divine_ore",
+                    "weight": 20
+                }, {
+                    "name": "additions:shards_jungle_ore",
+                    "weight": 20
+                }, {
+                    "name": "additions:shards_molten_ore",
+                    "weight": 20
+                }, {
+                    "name": "additions:shards_terran_ore",
+                    "weight": 20
+                }],
+                "material": "divinerpg:frozen_stone",
+                "cluster-size": 16
+            },
+            "max-height": 40,
+            "min-height": 1,
+            "cluster-count": 2,
+            "retrogen": "true",
+            "dimension": {
+                "restriction": "whitelist",
+                "value": [425]
+            }
+        },
+        "nether_blood_crystal": {
+            "enabled": "true",
+            "distribution": "uniform",
+            "generator": {
+                "block": [{
+                    "name": "journey:bleedstoneore",
+                    "weight": 100
+                }],
+                "material": "minecraft:netherrack",
+                "cluster-size": 1
+            },
+            "max-height": 100,
+            "min-height": 40,
+            "cluster-count": 32,
+            "retrogen": "true",
+            "dimension": {
+                "restriction": "whitelist",
+                "value": [-1]
+            }
+        },
+        "vethea_bronze": {
+            "enabled": "true",
+            "distribution": "uniform",
+            "generator": {
+                "block": [{
+                    "name": "additions:vethea_bronze_debris",
+                    "weight": 100
+                }],
+                "material": "divinerpg:dream_stone",
+                "cluster-size": 8
+            },
+            "max-height": 255,
+            "min-height": 1,
+            "cluster-count": 30,
+            "retrogen": "true",
+            "dimension": {
+                "restriction": "whitelist",
+                "value": [427]
+            }
+        },
+        "vethea_conductive": {
+            "enabled": "true",
+            "distribution": "uniform",
+            "generator": {
+                "block": [{
+                    "name": "additions:vethea_conductive_iron_debris",
+                    "weight": 100
+                }],
+                "material": "divinerpg:dream_stone",
+                "cluster-size": 8
+            },
+            "max-height": 255,
+            "min-height": 1,
+            "cluster-count": 30,
+            "retrogen": "true",
+            "dimension": {
+                "restriction": "whitelist",
+                "value": [427]
+            }
+        },
+        "vethea_clay": {
+            "enabled": "true",
+            "distribution": "uniform",
+            "generator": {
+                "block": [{
+                    "name": "additions:vethea_clay_ore",
+                    "weight": 100
+                }],
+                "material": "divinerpg:dream_stone",
+                "cluster-size": 12
+            },
+            "max-height": 255,
+            "min-height": 1,
+            "cluster-count": 45,
+            "retrogen": "true",
+            "dimension": {
+                "restriction": "whitelist",
+                "value": [427]
+            }
+        },
+        "hothium": {
+            "enabled": "true",
+            "distribution": "uniform",
+            "generator": {
+                "block": [{
+                    "name": "tiths:ore_hothium",
+                    "weight": 100
+                }],
+                "material": "gct_mobs:meteor",
+                "cluster-size": 2
+            },
+            "max-height": 255,
+            "min-height": 1,
+            "cluster-count": 3,
+            "retrogen": "true",
+            "dimension": {
+                "restriction": "whitelist",
+                "value": [78]
+            }
+        },
+        "halleium": {
+            "enabled": "true",
+            "distribution": "uniform",
+            "generator": {
+                "block": [{
+                    "name": "tiths:ore_halleium",
+                    "weight": 100
+                }],
+                "material": "gct_mobs:meteor",
+                "cluster-size": 2
+            },
+            "max-height": 255,
+            "min-height": 1,
+            "cluster-count": 3,
+            "retrogen": "true",
+            "dimension": {
+                "restriction": "whitelist",
+                "value": [78]
+            }
+        },
+        "polarium": {
+            "enabled": "true",
+            "distribution": "uniform",
+            "generator": {
+                "block": [{
+                    "name": "tiths:ore_polarium",
+                    "weight": 100
+                }],
+                "material": "gct_mobs:meteor",
+                "cluster-size": 2
+            },
+            "max-height": 255,
+            "min-height": 1,
+            "cluster-count": 3,
+            "retrogen": "true",
+            "dimension": {
+                "restriction": "whitelist",
+                "value": [78]
+            }
+        },
+        "altairium": {
+            "enabled": "true",
+            "distribution": "uniform",
+            "generator": {
+                "block": [{
+                    "name": "tiths:ore_altairium",
+                    "weight": 100
+                }],
+                "material": "gct_mobs:meteor",
+                "cluster-size": 2
+            },
+            "max-height": 255,
+            "min-height": 1,
+            "cluster-count": 3,
+            "retrogen": "true",
+            "dimension": {
+                "restriction": "whitelist",
+                "value": [78]
+            }
+        },
+        "tonium": {
+            "enabled": "true",
+            "distribution": "uniform",
+            "generator": {
+                "block": [{
+                    "name": "tiths:ore_tonium",
+                    "weight": 100
+                }],
+                "material": "gct_mobs:meteor",
+                "cluster-size": 2
+            },
+            "max-height": 255,
+            "min-height": 1,
+            "cluster-count": 3,
+            "retrogen": "true",
+            "dimension": {
+                "restriction": "whitelist",
+                "value": [78]
+            }
+        },
+        "stellarium": {
+            "enabled": "true",
+            "distribution": "uniform",
+            "generator": {
+                "block": [{
+                    "name": "tiths:ore_stellarium",
+                    "weight": 100
+                }],
+                "material": "gct_mobs:meteor",
+                "cluster-size": 1
+            },
+            "max-height": 255,
+            "min-height": 1,
+            "cluster-count": 1,
+            "retrogen": "true",
+            "dimension": {
+                "restriction": "whitelist",
+                "value": [78]
+            }
+        },
+        "immersed_silver": {
+            "enabled": "true",
+            "distribution": "uniform",
+            "generator": {
+                "block": [{
+                    "name": "additions:immersed_silver_ore",
+                    "weight": 100
+                }],
+                "material": "minecraft:sandstone",
+                "cluster-size": 4
+            },
+            "max-height": 64,
+            "min-height": 1,
+            "cluster-count": 6,
+            "retrogen": "true",
+            "dimension": {
+                "restriction": "whitelist",
+                "value": [324987]
+            }
+        },
+        "tanatonium": {
+            "enabled": "true",
+            "distribution": "uniform",
+            "generator": {
+                "block": [{
+                    "name": "additions:tanatonium_ore",
+                    "weight": 100
+                }],
+                "material": "minecraft:sandstone",
+                "cluster-size": 2
+            },
+            "max-height": 64,
+            "min-height": 1,
+            "cluster-count": 3,
+            "retrogen": "true",
+            "dimension": {
+                "restriction": "whitelist",
+                "value": [324987]
+            }
+        },
+        "imitatium": {
+            "enabled": "true",
+            "distribution": "uniform",
+            "generator": {
+                "block": [{
+                    "name": "additions:imitatium_ore",
+                    "weight": 100
+                }],
+                "material": "minecraft:sandstone",
+                "cluster-size": 2
+            },
+            "max-height": 64,
+            "min-height": 1,
+            "cluster-count": 3,
+            "retrogen": "true",
+            "dimension": {
+                "restriction": "whitelist",
+                "value": [324987]
+            }
+        },
+        "redins": {
+            "enabled": "true",
+            "distribution": "uniform",
+            "generator": {
+                "block": [{
+                    "name": "tiths:ore_redins",
+                    "weight": 100
+                }],
+                "material": "minecraft:stone",
+                "cluster-size": 2
+            },
+            "max-height": 48,
+            "min-height": 0,
+            "cluster-count": 8,
+            "retrogen": "true",
+            "biome": {
+                "restriction": "whitelist",
+                "value": "minecraft:mesa"
+            },
+            "dimension": {
+                "restriction": "blacklist",
+                "value": [1, -1]
+            }
+        },
+        "corundum": {
+            "enabled": "true",
+            "distribution": "uniform",
+            "generator": {
+                "block": [{
+                    "name": "tiths:ore_corundum",
+                    "weight": 100
+                }],
+                "material": "minecraft:stone",
+                "cluster-size": 2
+            },
+            "max-height": 48,
+            "min-height": 0,
+            "cluster-count": 8,
+            "retrogen": "true",
+            "biome": {
+                "restriction": "whitelist",
+                "value": "minecraft:deep_ocean"
+            },
+            "dimension": {
+                "restriction": "blacklist",
+                "value": [1, -1]
+            }
+        },
+        "pyrophyllite": {
+            "enabled": "true",
+            "distribution": "uniform",
+            "generator": {
+                "block": [{
+                    "name": "tiths:ore_pyrophyllite",
+                    "weight": 100
+                }],
+                "material": "minecraft:stone",
+                "cluster-size": 2
+            },
+            "max-height": 48,
+            "min-height": 0,
+            "cluster-count": 8,
+            "retrogen": "true",
+            "biome": {
+                "restriction": "whitelist",
+                "value": "biomesoplenty:wasteland"
+            },
+            "dimension": {
+                "restriction": "blacklist",
+                "value": [1, -1]
+            }
+        },
+        "lizanite": {
+            "enabled": "true",
+            "distribution": "uniform",
+            "generator": {
+                "block": [{
+                    "name": "tiths:ore_lizanite",
+                    "weight": 100
+                }],
+                "material": "minecraft:netherrack",
+                "cluster-size": 2
+            },
+            "max-height": 128,
+            "min-height": 0,
+            "cluster-count": 8,
+            "retrogen": "true",
+            "dimension": {
+                "restriction": "whitelist",
+                "value": [-1]
+            }
+        },
+        "spinel": {
+            "enabled": "true",
+            "distribution": "uniform",
+            "generator": {
+                "block": [{
+                    "name": "tiths:ore_spinel",
+                    "weight": 100
+                }],
+                "material": "minecraft:stone",
+                "cluster-size": 2
+            },
+            "max-height": 48,
+            "min-height": 0,
+            "cluster-count": 8,
+            "retrogen": "true",
+            "biome": {
+                "restriction": "whitelist",
+                "value": "biomesoplenty:alps"
+            },
+            "dimension": {
+                "restriction": "blacklist",
+                "value": [1, -1]
+            }
+        },
+        "tourmaline": {
+            "enabled": "true",
+            "distribution": "uniform",
+            "generator": {
+                "block": [{
+                    "name": "tiths:ore_tourmaline",
+                    "weight": 100
+                }],
+                "material": "minecraft:stone",
+                "cluster-size": 2
+            },
+            "max-height": 48,
+            "min-height": 0,
+            "cluster-count": 8,
+            "retrogen": "true",
+            "biome": {
+                "restriction": "whitelist",
+                "value": "abyssalcraft:darklands"
+            },
+            "dimension": {
+                "restriction": "blacklist",
+                "value": [1, -1]
+            }
+        },
+        "opal": {
+            "enabled": "true",
+            "distribution": "uniform",
+            "generator": {
+                "block": [{
+                    "name": "tiths:ore_opal",
+                    "weight": 100
+                }],
+                "material": "minecraft:stone",
+                "cluster-size": 2
+            },
+            "max-height": 48,
+            "min-height": 0,
+            "cluster-count": 8,
+            "retrogen": "true",
+            "biome": {
+                "restriction": "whitelist",
+                "value": "minecraft:desert"
+            },
+            "dimension": {
+                "restriction": "blacklist",
+                "value": [1, -1]
+            }
+        },
+        "cordierite": {
+            "enabled": "true",
+            "distribution": "uniform",
+            "generator": {
+                "block": [{
+                    "name": "tiths:ore_cordierite",
+                    "weight": 100
+                }],
+                "material": "minecraft:stone",
+                "cluster-size": 2
+            },
+            "max-height": 48,
+            "min-height": 0,
+            "cluster-count": 8,
+            "retrogen": "true",
+            "biome": {
+                "restriction": "whitelist",
+                "value": "minecraft:mushroom_island"
+            },
+            "dimension": {
+                "restriction": "blacklist",
+                "value": [1, -1]
+            }
+        },
+        "prehnite": {
+            "enabled": "true",
+            "distribution": "uniform",
+            "generator": {
+                "block": [{
+                    "name": "tiths:ore_prehnite",
+                    "weight": 100
+                }],
+                "material": "minecraft:stone",
+                "cluster-size": 2
+            },
+            "max-height": 48,
+            "min-height": 0,
+            "cluster-count": 8,
+            "retrogen": "true",
+            "biome": {
+                "restriction": "whitelist",
+                "value": "minecraft:jungle"
+            },
+            "dimension": {
+                "restriction": "blacklist",
+                "value": [1, -1]
+            }
+        },
+        "sanite": {
+            "enabled":"true",
+            "distribution":"uniform",
+            "generator":{
+                "block":[{
+                    "name":"gct_aby:saniteore",
+                    "weight":100
+                }],
+                "material":"gct_aby:densedarkstone",
+                "cluster-size":2
+            },
+            "max-height":128,
+            "min-height":0,
+            "cluster-count":1,
+            "retrogen":"true",
+            "dimension":{
+                "restriction":"whitelist",
+                "value":[54]
+            }
+        },
+        "chloroplast": {
+            "enabled":"true",
+            "distribution":"uniform",
+            "generator":{
+                "block":[{
+                    "name":"additions:chloroplast_ore",
+                    "weight":100
+                }],
+                "material":"journey:terranianstone",
+                "cluster-size":3
+            },
+            "max-height":64,
+            "min-height":0,
+            "cluster-count":3,
+            "retrogen":"true",
+            "dimension":{
+                "restriction":"whitelist",
+                "value":[827]
+            }
+        },
+        "swinium": {
+            "enabled": "true",
+            "distribution": "uniform",
+            "generator": {
+                "block": [{
+                    "name": "additions:swinium_ore",
+                    "weight": 100
+                }],
+                "material": "minecraft:stone",
+                "cluster-size": 1
+            },
+            "min-height": 0,
+            "max-height": 36,
+            "cluster-count": 5,
+            "retrogen": "true",
+            "dimension": {
+                "restriction": "blacklist",
+                "value": [1, -1]
+            }
+        },
+        "vanadium": {
+            "enabled": "true",
+            "distribution": "uniform",
+            "generator": {
+                "block": [{
+                    "name": "additions:vanadium_ore",
+                    "weight": 100
+                }],
+                "material": "minecraft:stone",
+                "cluster-size": 1
+            },
+            "min-height": 0,
+            "max-height": 55,
+            "cluster-count": 4,
+            "retrogen": "true",
+            "dimension": {
+                "restriction": "blacklist",
+                "value": [1, -1]
+            }
+        },
+        "gallium": {
+            "enabled": "true",
+            "distribution": "uniform",
+            "generator": {
+                "block": [{
+                    "name": "additions:gallium_ore",
+                    "weight": 100
+                }],
+                "material": "minecraft:packed_ice",
+                "cluster-size": 2
+            },
+            "min-height": 0,
+            "max-height": 80,
+            "cluster-count": 24,
+            "retrogen": "true",
+            "dimension": {
+                "restriction": "blacklist",
+                "value": [1, -1]
+            }
+        },
+        "indium": {
+            "enabled": "true",
+            "distribution": "uniform",
+            "generator": {
+                "block": [{
+                    "name": "additions:indium_ore",
+                    "weight": 100
+                }],
+                "material": "minecraft:stone",
+                "cluster-size": 2
+            },
+            "min-height": 0,
+            "max-height": 25,
+            "cluster-count": 2,
+            "retrogen": "true",
+            "dimension": {
+                "restriction": "blacklist",
+                "value": [1, -1]
+            }
+        },
+        "rubium": {
+            "enabled": "true",
+            "distribution": "uniform",
+            "generator": {
+                "block": [{
+                    "name": "additions:rubium_ore",
+                    "weight": 100
+                }],
+                "material": "minecraft:stone",
+                "cluster-size": 1
+            },
+            "min-height": 0,
+            "max-height": 40,
+            "cluster-count": 4,
+            "retrogen": "true",
+            "dimension": {
+                "restriction": "blacklist",
+                "value": [1, -1]
+            }
+        },
+        "cestium": {
+            "enabled": "true",
+            "distribution": "uniform",
+            "generator": {
+                "block": [{
+                    "name": "additions:cestium_ore",
+                    "weight": 100
+                }],
+                "material": "minecraft:stone",
+                "cluster-size": 1
+            },
+            "min-height": 0,
+            "max-height": 36,
+            "cluster-count": 3,
+            "retrogen": "true",
+            "dimension": {
+                "restriction": "blacklist",
+                "value": [1, -1]
+            }
+        },
+        "fraxinium": {
+            "enabled": "true",
+            "distribution": "uniform",
+            "generator": {
+                "block": [{
+                    "name": "additions:fraxinium_ore",
+                    "weight": 100
+                }],
+                "material": "minecraft:stone",
+                "cluster-size": 1
+            },
+            "min-height": 0,
+            "max-height": 16,
+            "cluster-count": 1,
+            "retrogen": "true",
+            "dimension": {
+                "restriction": "blacklist",
+                "value": [1, -1]
+            }
+        },
+        "manarium": {
+            "enabled": "true",
+            "distribution": "uniform",
+            "generator": {
+                "block": [{
+                    "name": "additions:manarium_ore",
+                    "weight": 100
+                }],
+                "material": "minecraft:end_stone",
+                "cluster-size": 2
+            },
+            "min-height": 0,
+            "max-height": 90,
+            "cluster-count": 4,
+            "retrogen": "true",
+            "dimension": {
+                "restriction": "whitelist",
+                "value": [1]
+            }
+        },
+        "lighteum": {
+            "enabled": "true",
+            "distribution": "uniform",
+            "generator": {
+                "block": [{
+                    "name": "additions:lighteum_ore",
+                    "weight": 100
+                }],
+                "material": "minecraft:netherrack",
+                "cluster-size": 2
+            },
+            "min-height": 0,
+            "max-height": 60,
+            "cluster-count": 4,
+            "retrogen": "true",
+            "dimension": {
+                "restriction": "whitelist",
+                "value": [-1]
+            }
+        },
+        "cloudite": {
+            "enabled": "true",
+            "distribution": "uniform",
+            "generator": {
+                "block": [{
+                    "name": "additions:cloudite_ore",
+                    "weight": 100
+                }],
+                "material": "aether_legacy:holystone",
+                "cluster-size": 2
+            },
+            "min-height": 0,
+            "max-height": 120,
+            "cluster-count": 4,
+            "retrogen": "true",
+            "dimension": {
+                "restriction": "whitelist",
+                "value": [173]
+            }
+        },
+        "mangisite": {
+            "enabled": "true",
+            "distribution": "uniform",
+            "generator": {
+                "block": [{
+                    "name": "additions:mangisite_ore",
+                    "weight": 100
+                }],
+                "material": "biomesoplenty:flesh",
+                "cluster-size": 2
+            },
+            "min-height": 0,
+            "max-height": 128,
+            "cluster-count": 3,
+            "retrogen": "true",
+            "dimension": {
+                "restriction": "whitelist",
+                "value": [-1]
+            }
+        },
+        "soilium": {
+            "enabled": "true",
+            "distribution": "uniform",
+            "generator": {
+                "block": [{
+                    "name": "additions:soilium_ore",
+                    "weight": 100
+                }],
+                "material": "stygian:endobsidian",
+                "cluster-size": 4
+            },
+            "min-height": 0,
+            "max-height": 128,
+            "cluster-count": 8,
+            "retrogen": "true",
+            "dimension": {
+                "restriction": "whitelist",
+                "value": [1]
+            }
+        },
+        "oneo": {
+            "enabled": "true",
+            "distribution": "uniform",
+            "generator": {
+                "block": [{
+                    "name": "additions:oneo_ore",
+                    "weight": 100
+                }],
+                "material": "minecraft:bedrock",
+                "cluster-size": 1
+            },
+            "min-height": 0,
+            "max-height": 10,
+            "cluster-count": 5,
+            "retrogen": "true",
+            "dimension": {
+                "restriction": "whitelist",
+                "value": [-1]
+            }
+        },
+        "breakium": {
+            "enabled": "true",
+            "distribution": "uniform",
+            "generator": {
+                "block": [{
+                    "name": "additions:breakium_ore",
+                    "weight": 100
+                }],
+                "material": "minecraft:end_stone",
+                "cluster-size": 1
+            },
+            "min-height": 0,
+            "max-height": 128,
+            "cluster-count": 4,
+            "retrogen": "true",
+            "dimension": {
+                "restriction": "whitelist",
+                "value": [1]
+            }
+        },
+        "molybdenum": {
+            "enabled": "true",
+            "distribution": "uniform",
+            "generator": {
+                "block": [{
+                    "name": "additions:molybdenum_ore",
+                    "weight": 100
+                }],
+                "material": "aether_legacy:holystone",
+                "cluster-size": 1
+            },
+            "min-height": 0,
+            "max-height": 128,
+            "cluster-count": 3,
+            "retrogen": "true",
+            "dimension": {
+                "restriction": "whitelist",
+                "value": [173]
+            }
+        },
+        "fenzium": {
+            "enabled": "true",
+            "distribution": "uniform",
+            "generator": {
+                "block": [{
+                    "name": "additions:fenzium_ore",
+                    "weight": 100
+                }],
+                "material": "minecraft:end_stone",
+                "cluster-size": 16
+            },
+            "min-height": 0,
+            "max-height": 128,
+            "cluster-count": 1,
+            "retrogen": "true",
+            "dimension": {
+                "restriction": "whitelist",
+                "value": [1]
+            }
+        },
+        "xenidium": {
+            "enabled": "true",
+            "distribution": "uniform",
+            "generator": {
+                "block": [{
+                    "name": "additions:xenidium_ore",
+                    "weight": 100
+                }],
+                "material": "minecraft:netherrack",
+                "cluster-size": 1
+            },
+            "min-height": 100,
+            "max-height": 128,
+            "cluster-count": 3,
+            "retrogen": "true",
+            "dimension": {
+                "restriction": "whitelist",
+                "value": [-1]
+            }
+        },
+        "sissidium": {
+            "enabled": "true",
+            "distribution": "uniform",
+            "generator": {
+                "block": [{
+                    "name": "additions:sissidium_ore",
+                    "weight": 100
+                }],
+                "material": "minecraft:end_stone",
+                "cluster-size": 1
+            },
+            "min-height": 0,
+            "max-height": 60,
+            "cluster-count": 2,
+            "retrogen": "true",
+            "dimension": {
+                "restriction": "whitelist",
+                "value": [1]
+            }
+        },
+        "ttwo": {
+            "enabled": "true",
+            "distribution": "uniform",
+            "generator": {
+                "block": [{
+                    "name": "additions:ttwo_ore",
+                    "weight": 100
+                }],
+                "material": "minecraft:bedrock",
+                "cluster-size": 1
+            },
+            "min-height": 120,
+            "max-height": 128,
+            "cluster-count": 2,
+            "retrogen": "true",
+            "dimension": {
+                "restriction": "whitelist",
+                "value": [-1]
+            }
+        },
+        "losessium": {
+            "enabled": "true",
+            "distribution": "uniform",
+            "generator": {
+                "block": [{
+                    "name": "additions:losessium_ore",
+                    "weight": 10
+                },{
+                    "name": "gct_mobs:corruptrock",
+                    "weight": 90
+                }],
+                "material": "gct_mobs:bloodyrock",
+                "cluster-size": 25
+            },
+            "min-height": 0,
+            "max-height": 128,
+            "cluster-count": 2,
+            "retrogen": "true",
+            "dimension": {
+                "restriction": "blacklist",
+                "value": [1, -1, 0]
+            }
+        },
+        "technetium": {
+            "enabled": "true",
+            "distribution": "uniform",
+            "generator": {
+                "block": [{
+                    "name": "additions:technetium_ore",
+                    "weight": 100
+                }],
+                "material": "minecraft:end_stone",
+                "cluster-size": 1
+            },
+            "min-height": 0,
+            "max-height": 128,
+            "cluster-count": 2,
+            "retrogen": "true",
+            "dimension": {
+                "restriction": "whitelist",
+                "value": [1]
+            }
+        },
+        "rapesesium": {
+            "enabled": "true",
+            "distribution": "uniform",
+            "generator": {
+                "block": [{
+                    "name": "additions:rapesesium_ore",
+                    "weight": 100
+                }],
+                "material": "minecraft:netherrack",
+                "cluster-size": 1
+            },
+            "min-height": 0,
+            "max-height": 64,
+            "cluster-count": 2,
+            "retrogen": "true",
+            "dimension": {
+                "restriction": "whitelist",
+                "value": [-1]
+            }
+        },
+        "botanical_soul": {
+            "enabled": "true",
+            "distribution": "uniform",
+            "generator": {
+                "block": [{
+                    "name": "gct_mobs:botanical_stone",
+                    "weight": 100
+                }],
+                "material": "gct_mobs:alf_stone",
+                "cluster-size": 1
+            },
+            "min-height": 0,
+            "max-height": 128,
+            "cluster-count": 1,
+            "retrogen": "true",
+            "dimension": {
+                "restriction": "whitelist",
+                "value": [42]
+            }
+        },
+        "astral_aquamarine": {
+            "enabled": "true",
+            "distribution": "uniform",
+            "generator": {
+                "block": [{
+                    "name": "additions:astral_aquamarine_ore",
+                    "weight": 90
+                },{
+                    "name": "additions:arimite_ore",
+                    "weight": 10
+                }],
+                "material": "gct_mobs:crystalsandstone",
+                "cluster-size": 6
+            },
+            "min-height": 1,
+            "max-height": 255,
+            "cluster-count": 20,
+            "retrogen": "true",
+            "dimension": {
+                "restriction": "whitelist",
+                "value": [80]
+            }
+        },
+        "astral_astral_starmetal": {
+            "enabled": "true",
+            "distribution": "uniform",
+            "generator": {
+                "block": [{
+                    "name": "additions:star_metal_ore",
+                    "weight": 100
+                }],
+                "material": "gct_mobs:polarisite",
+                "cluster-size": 16
+            },
+            "min-height": 0,
+            "max-height": 128,
+            "cluster-count": 7,
+            "retrogen": "true",
+            "dimension": {
+                "restriction": "whitelist",
+                "value": [80]
+            }
+        },
+        "astral_astralmetal": {
+            "enabled": "true",
+            "distribution": "uniform",
+            "generator": {
+                "block": [{
+                    "name": "additions:astralmetal_ore",
+                    "weight": 100
+                }],
+                "material": "gct_mobs:polarisite",
+                "cluster-size": 2
+            },
+            "min-height": 0,
+            "max-height": 128,
+            "cluster-count": 2,
+            "retrogen": "true",
+            "dimension": {
+                "restriction": "whitelist",
+                "value": [80]
+            }
+        },
+        "lunarine": {
+            "enabled": "true",
+            "distribution": "uniform",
+            "generator": {
+                "block": [{
+                    "name": "additions:lunarine_ore",
+                    "weight": 100
+                }],
+                "material": "gct_mobs:polarisite",
+                "cluster-size": 1
+            },
+            "min-height": 0,
+            "max-height": 128,
+            "cluster-count": 4,
+            "retrogen": "true",
+            "dimension": {
+                "restriction": "whitelist",
+                "value": [80]
+            }
+        },
+        "nasalum": {
+            "enabled": "true",
+            "distribution": "uniform",
+            "generator": {
+                "block": [{
+                    "name": "additions:nasalum_ore",
+                    "weight": 100
+                }],
+                "material": "gct_mobs:polarisite",
+                "cluster-size": 1
+            },
+            "min-height": 0,
+            "max-height": 128,
+            "cluster-count": 4,
+            "retrogen": "true",
+            "dimension": {
+                "restriction": "whitelist",
+                "value": [80]
+            }
+        },
+        "order_crystal": {
+            "enabled": "true",
+            "distribution": "uniform",
+            "generator": {
+                "block": [{
+                    "name": "gct_ores:order_crystal_ore",
+                    "weight": 100
+                }],
+                "material": "gct_ores:order_stone",
+                "cluster-size": 1
+            },
+            "min-height": 0,
+            "max-height": 128,
+            "cluster-count": 2,
+            "retrogen": "true",
+            "dimension": {
+                "restriction": "whitelist",
+                "value": [100,101,102,103]
+            }
+        },
+        "elders_ore": {
+            "enabled": "true",
+            "distribution": "uniform",
+            "generator": {
+                "block": [{
+                    "name": "gct_aby:nyralathotepium_ore_complex",
+                    "weight": 25
+                },{
+                    "name": "gct_aby:azathothium_ore_complex",
+                    "weight": 25
+                },{
+                    "name": "gct_aby:yogsothothium_ore_complex",
+                    "weight": 25
+                },{
+                    "name": "gct_aby:shubniggurathium_ore_complex",
+                    "weight": 25
+                }],
+                "material": "gct_aby:warprack",
+                "cluster-size": 1
+            },
+            "min-height": 0,
+            "max-height": 128,
+            "cluster-count": 6,
+            "retrogen": "true",
+            "dimension": {
+                "restriction": "whitelist",
+                "value": [55]
+            }
+        },
+        "valonite": {
+            "enabled": "true",
+            "distribution": "uniform",
+            "generator": {
+                "block": [{
+                    "name": "thebetweenlands:valonite_ore",
+                    "weight": 100
+                }],
+                "material": "thebetweenlands:pitstone",
+                "cluster-size": 3
+            },
+            "min-height": 0,
+            "max-height": 32,
+            "cluster-count": 2,
+            "retrogen": "true",
+            "dimension": {
+                "restriction": "whitelist",
+                "value": [20]
+            }
+        },
+        "izumium": {
+            "enabled": "true",
+            "distribution": "uniform",
+            "generator": {
+                "block": [{
+                    "name": "additions:izumium_ore",
+                    "weight": 100
+                }],
+                "material": "thebetweenlands:pitstone",
+                "cluster-size": 1
+            },
+            "min-height": 0,
+            "max-height": 64,
+            "cluster-count": 2,
+            "retrogen": "true",
+            "dimension": {
+                "restriction": "whitelist",
+                "value": [20]
+            }
+        },
+        "scabyst": {
+            "enabled": "true",
+            "distribution": "uniform",
+            "generator": {
+                "block": [{
+                    "name": "thebetweenlands:scabyst_ore",
+                    "weight": 100
+                }],
+                "material": "thebetweenlands:betweenstone",
+                "cluster-size": 8
+            },
+            "min-height": 32,
+            "max-height": 80,
+            "cluster-count": 2,
+            "retrogen": "true",
+            "dimension": {
+                "restriction": "whitelist",
+                "value": [20]
+            }
+        },
+        "sorrowium": {
+            "enabled": "true",
+            "distribution": "uniform",
+            "generator": {
+                "block": [{
+                    "name": "additions:sorrowium_ore",
+                    "weight": 100
+                }],
+                "material": "journey:ashblock",
+                "cluster-size": 1
+            },
+            "min-height": 1,
+            "max-height": 128,
+            "cluster-count": 8,
+            "retrogen": "true",
+            "dimension": {
+                "restriction": "blacklist",
+                "value": [1, -1, 0]
+            }
+        },
+        "enderite": {
+            "enabled": "true",
+            "distribution": "uniform",
+            "generator": {
+                "block": [{
+                    "name": "gct_mobs:resonate_debris",
+                    "weight": 100
+                }],
+                "material": "minecraft:end_stone",
+                "cluster-size": 2
+            },
+            "cluster-count": 1,
+            "min-height": 5,
+            "max-height": 80,
+            "retrogen": "true",
+            "biome": "all",
+            "dimension": {
+                "restriction": "whitelist",
+                "value": [1]
+            }
+        },
+        "barite": {
+            "enabled": "true",
+            "distribution": "uniform",
+            "generator": {
+                "block": [{
+                    "name": "additions:barite_ore",
+                    "weight": 100
+                }],
+                "material": "journey:depthsstone",
+                "cluster-size": 4
+            },
+            "cluster-count": 5,
+            "min-height": 5,
+            "max-height": 128,
+            "retrogen": "true",
+            "biome": "all",
+            "dimension": {
+                "restriction": "whitelist",
+                "value": [821]
+            }
+        },
+        "limonite": {
+            "enabled": "true",
+            "distribution": "uniform",
+            "generator": {
+                "block": [{
+                    "name": "additions:limonite_ore",
+                    "weight": 100
+                }],
+                "material": "minecraft:stone",
+                "cluster-size": 16
+            },
+            "cluster-count": 2,
+            "min-height": 1,
+            "max-height": 40,
+            "retrogen": "true",
+            "biome": "all",
+            "dimension": {
+                "restriction": "whitelist",
+                "value": [111]
+            }
+        },
+        "rosite": {
+            "enabled": "true",
+            "distribution": "uniform",
+            "generator": {
+                "block": [{
+                    "name": "additions:rosite_ore",
+                    "weight": 100
+                }],
+                "material": "minecraft:stone",
+                "cluster-size": 2
+            },
+            "cluster-count": 3,
+            "min-height": 1,
+            "max-height": 40,
+            "retrogen": "true",
+            "biome": "all",
+            "dimension": {
+                "restriction": "whitelist",
+                "value": [111]
+            }
+        },
+        "emberstone": {
+            "enabled": "true",
+            "distribution": "uniform",
+            "generator": {
+                "block": [{
+                    "name": "additions:emberstone_ore",
+                    "weight": 100
+                }],
+                "material": "minecraft:netherrack",
+                "cluster-size": 2
+            },
+            "cluster-count": 3,
+            "min-height": 20,
+            "max-height": 90,
+            "retrogen": "true",
+            "biome": "all",
+            "dimension": {
+                "restriction": "whitelist",
+                "value": [-1]
+            }
+        },
+        "gravity_debris": {
+            "enabled": "true",
+            "distribution": "uniform",
+            "generator": {
+                "block": [{
+                    "name": "gct_mobs:gravity_debris",
+                    "weight": 100
+                }],
+                "material": "aether_legacy:holystone",
+                "cluster-size": 2
+            },
+            "cluster-count": 1,
+            "min-height": 1,
+            "max-height": 128,
+            "retrogen": "true",
+            "biome": "all",
+            "dimension": {
+                "restriction": "whitelist",
+                "value": [173]
+            }
+        },
+        "thallium": {
+            "enabled": "true",
+            "distribution": "uniform",
+            "generator": {
+                "block": [{
+                    "name": "additions:thallium_ore",
+                    "weight": 100
+                }],
+                "material": "minecraft:end_stone",
+                "cluster-size": 1
+            },
+            "cluster-count": 6,
+            "min-height": 20,
+            "max-height": 80,
+            "retrogen": "true",
+            "biome": "all",
+            "dimension": {
+                "restriction": "whitelist",
+                "value": [1]
+            }
+        },
+        "ebonite": {
+            "enabled": "true",
+            "distribution": "uniform",
+            "generator": {
+                "block": [{
+                    "name": "moretcon:oreebonite",
+                    "weight": 100
+                }],
+                "material": "minecraft:bedrock",
+                "cluster-size": 1
+            },
+            "cluster-count": 8,
+            "min-height": 1,
+            "max-height": 8,
+            "retrogen": "true",
+            "biome": "all",
+            "dimension": {
+                "restriction": "whitelist",
+                "value": [-11325]
+            }
+        },
+        "basalt": {
+            "enabled": "true",
+            "distribution": "uniform",
+            "generator": {
+                "block": [{
+                    "name": "taiga:basalt_block",
+                    "weight": 100
+                }],
+                "material": "minecraft:lava",
+                "cluster-size": 1
+            },
+            "cluster-count": 10,
+            "min-height": 10,
+            "max-height": 10,
+            "retrogen": "true",
+            "biome": "all",
+            "dimension": {
+                "restriction": "blacklist",
+                "value": [-1, 1]
+            }
+        },
+        "tiberium": {
+            "enabled": "true",
+            "distribution": "uniform",
+            "generator": {
+                "block": [{
+                    "name": "taiga:tiberium_ore",
+                    "weight": 100
+                }],
+                "material": "minecraft:netherrack",
+                "cluster-size": 40
+            },
+            "cluster-count": 1,
+            "min-height": 1,
+            "max-height": 128,
+            "retrogen": "true",
+            "biome": "all",
+            "dimension": {
+                "restriction": "whitelist",
+                "value": [-1]
+            }
+        },
+        "aurorium": {
+            "enabled": "true",
+            "distribution": "uniform",
+            "generator": {
+                "block": [{
+                    "name": "taiga:aurorium_ore",
+                    "weight": 100
+                }],
+                "material": "minecraft:end_stone",
+                "cluster-size": 1
+            },
+            "cluster-count": 32,
+            "min-height": 32,
+            "max-height": 48,
+            "retrogen": "true",
+            "biome": "all",
+            "dimension": {
+                "restriction": "whitelist",
+                "value": [1]
+            }
+        },
+        "prometheum": {
+            "enabled": "true",
+            "distribution": "uniform",
+            "generator": {
+                "block": [{
+                    "name": "taiga:prometheum_ore",
+                    "weight": 100
+                }],
+                "material": "minecraft:netherrack",
+                "cluster-size": 1
+            },
+            "cluster-count": 32,
+            "min-height": 1,
+            "max-height": 30,
+            "retrogen": "true",
+            "biome": "all",
+            "dimension": {
+                "restriction": "whitelist",
+                "value": [-1]
+            }
+        },
+        "valyrium": {
+            "enabled": "true",
+            "distribution": "uniform",
+            "generator": {
+                "block": [{
+                    "name": "taiga:valyrium_ore",
+                    "weight": 100
+                }],
+                "material": "minecraft:netherrack",
+                "cluster-size": 1
+            },
+            "cluster-count": 64,
+            "min-height": 1,
+            "max-height": 128,
+            "retrogen": "true",
+            "biome": "all",
+            "dimension": {
+                "restriction": "whitelist",
+                "value": [-1]
+            }
+        },
+        "vibranium": {
+            "enabled": "true",
+            "distribution": "uniform",
+            "generator": {
+                "block": [{
+                    "name": "taiga:vibranium_ore",
+                    "weight": 100
+                }],
+                "material": "minecraft:stone",
+                "cluster-size": 1
+            },
+            "cluster-count": 16,
+            "min-height": 1,
+            "max-height": 48,
+            "retrogen": "true",
+            "biome": "all",
+            "dimension": {
+                "restriction": "blacklist",
+                "value": [-1, 1]
+            }
+        },
+        "dilithium": {
+            "enabled": "true",
+            "distribution": "uniform",
+            "generator": {
+                "block": [{
+                    "name": "taiga:dilithium_ore",
+                    "weight": 100
+                }],
+                "material": "minecraft:stone",
+                "cluster-size": 8
+            },
+            "cluster-count": 10,
+            "min-height": 1,
+            "max-height": 64,
+            "retrogen": "true",
+            "biome": {
+                "restriction": "whitelist",
+                "value": "minecraft:desert"
+            },
+            "dimension": {
+                "restriction": "blacklist",
+                "value": [-1, 1]
+            }
+        },
+        "karmesine": {
+            "enabled": "true",
+            "distribution": "uniform",
+            "generator": {
+                "block": [{
+                    "name": "taiga:karmesine_ore",
+                    "weight": 100
+                }],
+                "material": "minecraft:andersite",
+                "cluster-size": 1
+            },
+            "cluster-count": 48,
+            "min-height": 1,
+            "max-height": 128,
+            "retrogen": "true",
+            "biome": "all",
+            "dimension": {
+                "restriction": "blacklist",
+                "value": [-1, 1]
+            }
+        },
+        "ovium": {
+            "enabled": "true",
+            "distribution": "uniform",
+            "generator": {
+                "block": [{
+                    "name": "taiga:ovium_ore",
+                    "weight": 100
+                }],
+                "material": "minecraft:diorite",
+                "cluster-size": 1
+            },
+            "cluster-count": 48,
+            "min-height": 1,
+            "max-height": 128,
+            "retrogen": "true",
+            "biome": "all",
+            "dimension": {
+                "restriction": "blacklist",
+                "value": [-1, 1]
+            }
+        },
+        "jauxum": {
+            "enabled": "true",
+            "distribution": "uniform",
+            "generator": {
+                "block": [{
+                    "name": "taiga:jauxum_ore",
+                    "weight": 100
+                }],
+                "material": "minecraft:granite",
+                "cluster-size": 1
+            },
+            "cluster-count": 48,
+            "min-height": 1,
+            "max-height": 128,
+            "retrogen": "true",
+            "biome": "all",
+            "dimension": {
+                "restriction": "blacklist",
+                "value": [-1, 1]
+            }
+        },
+        "palladium": {
+            "enabled": "true",
+            "distribution": "uniform",
+            "generator": {
+                "block": [{
+                    "name": "taiga:palladium_ore",
+                    "weight": 100
+                }],
+                "material": "minecraft:end_stone",
+                "cluster-size": 1
+            },
+            "cluster-count": 20,
+            "min-height": 1,
+            "max-height": 128,
+            "retrogen": "true",
+            "biome": "all",
+            "dimension": {
+                "restriction": "whitelist",
+                "value": [1]
+            }
+        },
+        "osram": {
+            "enabled": "true",
+            "distribution": "uniform",
+            "generator": {
+                "block": [{
+                    "name": "taiga:osram_ore",
+                    "weight": 100
+                }],
+                "material": "minecraft:lava",
+                "cluster-size": 1
+            },
+            "cluster-count": 2,
+            "min-height": 31,
+            "max-height": 31,
+            "retrogen": "true",
+            "biome": "all",
+            "dimension": {
+                "restriction": "whitelist",
+                "value": [-1]
+            }
+        },
+        "abyssum": {
+            "enabled": "true",
+            "distribution": "uniform",
+            "generator": {
+                "block": [{
+                    "name": "taiga:abyssum_ore",
+                    "weight": 100
+                }],
+                "material": "minecraft:end_stone",
+                "cluster-size": 1
+            },
+            "cluster-count": 8,
+            "min-height": 0,
+            "max-height": 128,
+            "retrogen": "true",
+            "biome": "all",
+            "dimension": {
+                "restriction": "whitelist",
+                "value": [1]
+            }
+        },
+        "eezo": {
+            "enabled": "true",
+            "distribution": "uniform",
+            "generator": {
+                "block": [{
+                    "name": "taiga:eezo_ore",
+                    "weight": 100
+                }],
+                "material": "minecraft:bedrock",
+                "cluster-size": 1
+            },
+            "cluster-count": 8,
+            "min-height": 1,
+            "max-height": 10,
+            "retrogen": "true",
+            "biome": "all",
+            "dimension": {
+                "restriction": "blacklist",
+                "value": [1, -1]
+            }
+        },
+        "breedum": {
+            "enabled": "true",
+            "distribution": "uniform",
+            "generator": {
+                "block": [{
+                    "name": "additions:breedum_ore",
+                    "weight": 100
+                }],
+                "material": "minecraft:end_stone",
+                "cluster-size": 1
+            },
+            "cluster-count": 1,
+            "min-height": 1,
+            "max-height": 128,
+            "retrogen": "true",
+            "biome": "all",
+            "dimension": {
+                "restriction": "whitelist",
+                "value": [1]
+            }
+        },
+        "void_metal": {
+            "enabled": "true",
+            "distribution": "uniform",
+            "generator": {
+                "block": [{
+                    "name": "additions:void_metal_ore",
+                    "weight": 95
+                },{
+                    "name": "additions:primal_metal_ore",
+                    "weight": 5
+                }],
+                "material": "thaumicaugmentation:stone",
+                "cluster-size": 1
+            },
+            "cluster-count": 4,
+            "min-height": 1,
+            "max-height": 16,
+            "retrogen": "true",
+            "biome": "all",
+            "dimension": {
+                "restriction": "whitelist",
+                "value": [14676]
+            }
+        },
+        "rotiron": {
+            "enabled": "true",
+            "distribution": "uniform",
+            "generator": {
+                "block": [{
+                    "name": "additions:rotiron_ore",
+                    "weight": 100
+                }],
+                "material": "erebus:umberstone",
+                "cluster-size": 3
+            },
+            "cluster-count": 4,
+            "min-height": 1,
+            "max-height": 128,
+            "retrogen": "true",
+            "biome": "all",
+            "dimension": {
+                "restriction": "whitelist",
+                "value": [66]
+            }
+        },
+        "putrallium": {
+            "enabled": "true",
+            "distribution": "uniform",
+            "generator": {
+                "block": [{
+                    "name": "additions:putrallium_ore",
+                    "weight": 50
+                },{
+                    "name": "erebus:umberstone",
+                    "weight": 50
+                }],
+                "material": "erebus:umberstone",
+                "cluster-size": 1
+            },
+            "cluster-count": 1,
+            "min-height": 1,
+            "max-height": 128,
+            "retrogen": "true",
+            "biome": "all",
+            "dimension": {
+                "restriction": "whitelist",
+                "value": [66]
+            }
+        },
+        "gravitonium": {
+            "enabled": "true",
+            "distribution": "uniform",
+            "generator": {
+                "block": [{
+                    "name": "moretcon:oregravitonium",
+                    "weight": 90
+                },{
+                    "name": "moretcon:oregravitoniumdense",
+                    "weight": 10
+                }],
+                "material": "minecraft:end_stone",
+                "cluster-size": 16
+            },
+            "cluster-count": 1,
+            "min-height": 1,
+            "max-height": 128,
+            "retrogen": "true",
+            "biome": "all",
+            "dimension": {
+                "restriction": "whitelist",
+                "value": [1]
+            }
+        },
+        "broken_bedrock": {
+            "enabled": "true",
+            "distribution": "uniform",
+            "generator": {
+                "block": [{
+                    "name": "tiths:ore_broken_bedrock",
+                    "weight": 100
+                }],
+                "material": "minecraft:bedrock",
+                "cluster-size": 4
+            },
+            "cluster-count": 4,
+            "min-height": 1,
+            "max-height": 255,
+            "retrogen": "true",
+            "biome": "all",
+            "dimension": {
+                "restriction": "blacklist",
+                "value": [1]
+            }
+        },
+        "root": {
+            "enabled": "true",
+            "distribution": "uniform",
+            "generator": {
+                "block": [{
+                    "name": "tiths:ore_tree_root",
+                    "weight": 100
+                }],
+                "material": "minecraft:log",
+                "cluster-size": 1
+            },
+            "cluster-count": 64,
+            "min-height": 1,
+            "max-height": 50,
+            "retrogen": "true",
+            "biome": "all",
+            "dimension": {
+                "restriction": "whitelist",
+                "value": [0]
+            }
+        },
+        "blood_infused_iron": {
+            "enabled": "true",
+            "distribution": "uniform",
+            "generator": {
+                "block": [{
+                    "name": "additions:blood_infused_iron_ore",
+                    "weight": 100
+                }],
+                "material": "gct_mobs:bloodyrock",
+                "cluster-size": 4
+            },
+            "cluster-count": 8,
+            "min-height": 1,
+            "max-height": 50,
+            "retrogen": "true",
+            "biome": "all",
+            "dimension": {
+                "restriction": "whitelist",
+                "value": [41]
+            }
+        },
+        "blood_infused_diamond": {
+            "enabled": "true",
+            "distribution": "uniform",
+            "generator": {
+                "block": [{
+                    "name": "additions:blood_infused_diamond_ore",
+                    "weight": 100
+                }],
+                "material": "gct_mobs:bloodyrock",
+                "cluster-size": 4
+            },
+            "cluster-count": 3,
+            "min-height": 1,
+            "max-height": 25,
+            "retrogen": "true",
+            "biome": "all",
+            "dimension": {
+                "restriction": "whitelist",
+                "value": [41]
+            }
+        },
+        "nebu": {
+            "enabled": "true",
+            "distribution": "uniform",
+            "generator": {
+                "block": [{
+                    "name": "additions:nebu_ore",
+                    "weight": 100
+                }],
+                "material": "atum:limestone",
+                "cluster-size": 2
+            },
+            "cluster-count": 1,
+            "min-height": 1,
+            "max-height": 65,
+            "retrogen": "true",
+            "biome": "all",
+            "dimension": {
+                "restriction": "whitelist",
+                "value": [17]
+            }
+        }
+    }
+}

@@ -1,6 +1,0 @@
-{
-  "parent": "block/cube_all",
-  "textures": {
-    "all": "additions:blocks/terra_alloy_block"
-  }
-}
