@@ -4101,6 +4101,10 @@ file = "bansoukou/MysticalCreations-1.12.2-1.6.1.jar"
 hash = "f48388a7ca414f40bdbc4354e510cbaadef82cee5dbe1ef21120691996106a9e"
 
 [[files]]
+file = "bansoukou/touhoulittlemaid-1.12.2-1.2.5-release.jar"
+hash = "b035037802944fa694ad871facc352d971ff3641224935552b1462122ddfefa1"
+
+[[files]]
 file = "config/AE2Stuff/readme.txt"
 hash = "f86901d1cbf94aa31daff7fd7898391008892b2a4c0d4c6983d491427184d412"
 
@@ -4502,7 +4506,7 @@ hash = "a4064b8c6b8747dfae6eef6ea99c0e3c9ce84e8b7f889c31b8fee2d25672c0e1"
 
 [[files]]
 file = "config/Universal Tweaks - Bugfixes.cfg"
-hash = "863ef3ec5109511e524b073945f79963cccd78474383fdfa026e05a12900b40a"
+hash = "6ed43ab305803bd5ef3c10a328ceaaeeb931910c5beec91c57e7d2bcc7dc03cd"
 
 [[files]]
 file = "config/Universal Tweaks - General.cfg"
