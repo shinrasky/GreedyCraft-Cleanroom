@@ -75,7 +75,7 @@ val tooltipMap as string[][IIngredient] = {
     <aether_legacy:golden_amber> : [game.localize("greedycraft.tooltip.aether_legacy.golden_amber.1")],
     <abyssalcraft:gatewaykeydl> : [game.localize("greedycraft.tooltip.abyssalcraft.gatewaykeydl.1")],
     <abyssalcraft:gatewaykeyjzh> : [game.localize("greedycraft.tooltip.abyssalcraft.gatewaykeyjzh.1")],
-    <contenttweaker:valkyrie_block> : [game.localize("greedycraft.tooltip.tinkersaether.valkyrie_block.1")],
+    <tinkersaether:valkyrie_block> : [game.localize("greedycraft.tooltip.tinkersaether.valkyrie_block.1")],
     <chancecubes:compact_giant_chance_cube> : [game.localize("greedycraft.tooltip.chancecubes.compact_giant_chance_cube.1")],
     <chancecubes:chance_cube> : [game.localize("greedycraft.tooltip.chancecubes.chance_cube.1")],
     <minecraft:obsidian> : [game.localize("greedycraft.tooltip.minecraft.obsidian.1")],

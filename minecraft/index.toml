@@ -4334,7 +4334,7 @@ hash = "484983e2eb9e8ca63f92940a6470e2a27ae9b100808e4556e10e822336622c3b"
 
 [[files]]
 file = "config/Loot Overhaul/Useful Info/Block IDs.txt"
-hash = "450513cf6f4460c29877cc722fdb3192c3fed1fb5295d41b0934b09234d0de0e"
+hash = "39545d1b410b772d2c5a5067b4f80fddae063cef37d34b59b76cc93cdf7a15aa"
 
 [[files]]
 file = "config/Loot Overhaul/Useful Info/Dimension IDs.txt"
@@ -4350,7 +4350,7 @@ hash = "966fb72b277a74b7a5aa89c7209635fc1adf776e549ad06d5075533ca957ce5e"
 
 [[files]]
 file = "config/Loot Overhaul/Useful Info/Item IDs.txt"
-hash = "6b8b321d47bd2f58dadf9dacea2ed2568d4218d122e81403e481750eb801fa41"
+hash = "f11cc97c0aba0bb61782e2c802e23359eeee08b1a144c6a3ea12f20dc22b3c8e"
 
 [[files]]
 file = "config/Loot Overhaul/Useful Info/Ore Dictionary Info.txt"
@@ -4438,7 +4438,7 @@ hash = "2ba1f34efb229580aa8749017d3a8c5c03ba5d4ae7e4cc9f45ae9f1264f6898b"
 
 [[files]]
 file = "config/ProjectE/custom_emc.json.bak"
-hash = "9fb41502bac368313ebff9d41c793bc6bd92d08949b745b463c07fb5da715c41"
+hash = "ce16946cb8ccb679b4bb17cf5bf0b49225e7cb7d67dd35b85f50610f1630b5ee"
 
 [[files]]
 file = "config/ProjectE/mapping.cfg"
@@ -7386,7 +7386,7 @@ hash = "90378ae233e3d403b6218ad37688598a01e4a318e291fbafc2eb655d5a31efd5"
 
 [[files]]
 file = "config/ftbquests/adventure/chapters/3117133b/847b9b1a.snbt"
-hash = "68f67dbbd2b029f05b8dc2c7ef4fa5d680f411a93a94ab01f09df6fd4ab25fbb"
+hash = "ba03595e2f3003bfbd4d905492c392da5e4c4fa1fb8073acbbad907b2f3fcd00"
 
 [[files]]
 file = "config/ftbquests/adventure/chapters/3117133b/9f4070f3.snbt"
@@ -9642,7 +9642,7 @@ hash = "90378ae233e3d403b6218ad37688598a01e4a318e291fbafc2eb655d5a31efd5"
 
 [[files]]
 file = "config/ftbquests/casual/chapters/3117133b/847b9b1a.snbt"
-hash = "68f67dbbd2b029f05b8dc2c7ef4fa5d680f411a93a94ab01f09df6fd4ab25fbb"
+hash = "ba03595e2f3003bfbd4d905492c392da5e4c4fa1fb8073acbbad907b2f3fcd00"
 
 [[files]]
 file = "config/ftbquests/casual/chapters/3117133b/9f4070f3.snbt"
@@ -11858,7 +11858,7 @@ hash = "90378ae233e3d403b6218ad37688598a01e4a318e291fbafc2eb655d5a31efd5"
 
 [[files]]
 file = "config/ftbquests/expert/chapters/3117133b/847b9b1a.snbt"
-hash = "68f67dbbd2b029f05b8dc2c7ef4fa5d680f411a93a94ab01f09df6fd4ab25fbb"
+hash = "ba03595e2f3003bfbd4d905492c392da5e4c4fa1fb8073acbbad907b2f3fcd00"
 
 [[files]]
 file = "config/ftbquests/expert/chapters/3117133b/9f4070f3.snbt"
@@ -17278,7 +17278,7 @@ hash = "da295fa932222961e867530f77f96eda1c711abad1491fac46a7a9d0b69ebe63"
 
 [[files]]
 file = "config/thaumcraft_smelter.dat"
-hash = "6c09f6756815fbc759b3f7ff2a5e9743023863a5f086647e7b20aa50f7d7f1dd"
+hash = "c3664d16ef8ece4db29fb9411af8f6db216ba2522a8f1c70d7736852cf571a3b"
 
 [[files]]
 file = "config/thaumcraft_world.cfg"
@@ -18090,7 +18090,7 @@ hash = "3a0140cc572796c9b6c7eb46a168aad2a688091f6212022934bd62e8c321081b"
 
 [[files]]
 file = "config/uniq.cfg"
-hash = "3158b53ecfd49555f18cc3dd04a5f4d89da688026d7421102002b4e9c4da893f"
+hash = "d3ceae11569a24fa0024f0a2e9b070505645d1d7dca7aa7556b37b6000a19e25"
 
 [[files]]
 file = "config/variegated.cfg"
@@ -20133,6 +20133,11 @@ metafile = true
 [[files]]
 file = "mods/.index/tinker-toolcasts.pw.toml"
 hash = "2bdcb8ea00123aa6b94bef3205f148be39491bad937ab36a6b38711c4e482ef8"
+metafile = true
+
+[[files]]
+file = "mods/.index/tinkers-aether.pw.toml"
+hash = "43d6b2027dca36c7e9ce993312eec4057b0261a50daad3520a0b95196335affe"
 metafile = true
 
 [[files]]
@@ -23939,22 +23944,6 @@ file = "resources/contenttweaker/blockstates/terra_alloy.json"
 hash = "b4b05c9d5e489607d285a2fb44b1fbcd88bc8b82e79faa9a8ed5ce7433e56891"
 
 [[files]]
-file = "resources/contenttweaker/blockstates/valkyrie_block.json"
-hash = "01ccc88244996ee64c0654f77c41d39f8bf6dfd56b3f2a214fe4d845b18e9954"
-
-[[files]]
-file = "resources/contenttweaker/lang/en_us.lang"
-hash = "3ad079f2c2b199f4c8d8e1f68ba765aa7de8d73d99be237bbde9de6ff84fd29d"
-
-[[files]]
-file = "resources/contenttweaker/lang/zh_cn.lang"
-hash = "730b74d65bd9081699289fa0a2d339c385f68c07d0235549626497d3ad2fd89c"
-
-[[files]]
-file = "resources/contenttweaker/models/block/valkyrie_block.json"
-hash = "9a935df86fa779024952ff7bedc584e00e83f0784c04b79321bbaf15f2c0a361"
-
-[[files]]
 file = "resources/contenttweaker/models/item/tablet_of_enlightenment.json"
 hash = "e4fd4fecb92ce5e1f3c62de4b8c08173e238cb0c93faf4ffd7bf79ffcd79a0c1"
 
@@ -23963,36 +23952,12 @@ file = "resources/contenttweaker/models/item/tablet_of_enlightment.json"
 hash = "5f9dd1a2d3c52ac596f6e7b17d3aaa0fa0ee95153723960ac41319530de745f6"
 
 [[files]]
-file = "resources/contenttweaker/models/item/valkyrie_block.json"
-hash = "53bf8c6131b9ecb29dd6ebe76da376719766366b35713dc4e1aadc45a9d66f12"
-
-[[files]]
-file = "resources/contenttweaker/models/item/valkyrie_ingot.json"
-hash = "1139fdf6fe4ba17a5055c67ad3972ebe92afae72c48791767e03bcbc1346a193"
-
-[[files]]
-file = "resources/contenttweaker/models/item/valkyrie_nugget.json"
-hash = "e7a141c3d660814d62137650e9c2ad8094c8d142102f22d87ce08c21fb61d99f"
-
-[[files]]
-file = "resources/contenttweaker/textures/blocks/valkyrie_block.png"
-hash = "282719591ca72164b32d3370f0b4ced22b83ee88a24905ecd075161dde6f8fb0"
-
-[[files]]
 file = "resources/contenttweaker/textures/items/tablet_of_enlightenment.png"
 hash = "3f68e8989c194794c0fd7ee7a53d74bdee628b9c8757414f1d1517767b8621a9"
 
 [[files]]
 file = "resources/contenttweaker/textures/items/tablet_of_enlightment.png"
 hash = "3f68e8989c194794c0fd7ee7a53d74bdee628b9c8757414f1d1517767b8621a9"
-
-[[files]]
-file = "resources/contenttweaker/textures/items/valkyrie_ingot.png"
-hash = "eb1d73a93b4864cc5c67580d872449af4d8946e30e032a33b605991288d88017"
-
-[[files]]
-file = "resources/contenttweaker/textures/items/valkyrie_nugget.png"
-hash = "9d70206c02a468b9f3dd682bbbdda159f31a98b607795b5ceab01833d7d368e1"
 
 [[files]]
 file = "resources/customloadingscreen/config/greedycraft/custom.json"
@@ -24840,7 +24805,7 @@ hash = "74942a1d1fd94ae03c146069a687e8dbe9268379d4caab27529aa101204c01d6"
 
 [[files]]
 file = "scripts/compat/custom_emc.zs"
-hash = "d3cb2ff6434e18853c55e678b1fbdb2edf9a0e23efd6593108f033ec1a7b83e0"
+hash = "83a87cdce57db11f3564cae35958e9ec7408080013390a4401684a86ee0ec9ca"
 
 [[files]]
 file = "scripts/compat/jei.zs"
@@ -24860,15 +24825,11 @@ hash = "11925d2a0c4140f2e43d29c24215be1a74cd37ccaf62d9fe7dd7b870e5ae90fd"
 
 [[files]]
 file = "scripts/compat/thaumcraft_aspects.zs"
-hash = "2b72530831f4bbf063d8602a3d7b9b95d9c0936ce5b55e1929a0077ba8f52e73"
+hash = "369ff6df22b0f63d7075767a36af3ca50f09d3e640faabbe76e22e94fb575a31"
 
 [[files]]
 file = "scripts/compat/tinkertoolleveling.zs"
 hash = "a434b148ea32c0024bf77a3b780e85193d7f9b6b4e5ad359a5622f9bae80885e"
-
-[[files]]
-file = "scripts/contenttweaker/block.zs"
-hash = "64df2566191d604328c96dff2bb65362b124cc3829c6903fa1769f4e66b05197"
 
 [[files]]
 file = "scripts/contenttweaker/fluids.zs"
@@ -24876,7 +24837,7 @@ hash = "1c102880a517ef180b4f79f9f8d30baad36039cb8583e49bfc1923940179c3b2"
 
 [[files]]
 file = "scripts/contenttweaker/items.zs"
-hash = "0181deb38b5550a367f4d87392e728da6487bfb5eaf5c01c6e8d86798939554f"
+hash = "55a1f382f2b1136c649fb4a23450ecfe56d81078b9ac35cd3ccc199ee6dd1aa0"
 
 [[files]]
 file = "scripts/contenttweaker/tconstruct/armor_traits.zs"
@@ -24884,7 +24845,7 @@ hash = "858b50dfddf6a55b152175ae56759a97147b2d00436c014f34ef5dc6367bf394"
 
 [[files]]
 file = "scripts/contenttweaker/tconstruct/materials.zs"
-hash = "7087e7db3982e25b2d51b16e76d45d36a40d910c4e050a48b1c718d9ffcfe25b"
+hash = "07a975f5209b38b0790d732fcca64647eb3a8fa93c004d7e4aa57298737e2850"
 
 [[files]]
 file = "scripts/contenttweaker/tconstruct/tool_traits.zs"
@@ -25176,7 +25137,7 @@ hash = "2a3dd2bff610515ab29e79e70bc891a2188efbd7521e9b1ad0158358ce80b2d6"
 
 [[files]]
 file = "scripts/recipes/mods/avaritia.zs"
-hash = "876da8f60eb20102018c50bb38625f50d13ef94fcfd3875e867ad79d781b4dcf"
+hash = "536bead2b1bd7e63227afdde5259ad4b8ed65643655fea13398f5fdd62f9652a"
 
 [[files]]
 file = "scripts/recipes/mods/bloodmagic.zs"
@@ -25340,7 +25301,7 @@ hash = "d1ac83c8de373c015d9c674a42f08cba83af4a3ce265f862be1c588088a0b817"
 
 [[files]]
 file = "scripts/recipes/vanilla/crafting_table/shaped.zs"
-hash = "12c750e5923b452e4f4972d14b36dc591be860ea85215c3f68cfbe9041db5cda"
+hash = "673194f12968fa9ff419036c1c09b2b29d7718ac8c01e09ad904a01e1b7438d9"
 
 [[files]]
 file = "scripts/recipes/vanilla/crafting_table/shaped2.zs"
@@ -25348,7 +25309,7 @@ hash = "b94367dce71c95c2fa6c824c087d30a1dd475c9e6759e11e313e35d82830b052"
 
 [[files]]
 file = "scripts/recipes/vanilla/crafting_table/shapeless.zs"
-hash = "1fc27c662072adba52e9712dd734e5bacf56893bddc6480ca5df05bc4a4a5691"
+hash = "08daff1ef1eb5820ec173071bf02bb29abab1db30d0168d84f66573eab6905f1"
 
 [[files]]
 file = "scripts/recipes/vanilla/furnace.zs"
@@ -25376,11 +25337,11 @@ hash = "bea3d178a907f5ce7049545a2837dc4bdcf9187e106b7bb812b53d439391a936"
 
 [[files]]
 file = "scripts/tweaks/oredict.zs"
-hash = "2b19830ec0611dc7ecac3eda31cdcf80cc2a892357d96ea836669ebf3f075b30"
+hash = "c36c34190652b606969e64595980f93a9b3f40e75939d491776d4ad4caa5ae31"
 
 [[files]]
 file = "scripts/tweaks/tooltip.zs"
-hash = "1f8efff273320f3989d34faaf4b84f8555c2cc0f5afc27d0a220178aaedc6b32"
+hash = "40340feafbd5352200e3ccf7b0402a0dc5627faf8850f42d122875af2dd3b0fe"
 
 [[files]]
 file = "scripts/util/date.zs"

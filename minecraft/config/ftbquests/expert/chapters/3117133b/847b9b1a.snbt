@@ -1,6 +1,6 @@
 {
 	title: "{greedycraft.quest.847b9b1a.title}",
-	icon: "contenttweaker:valkyrie_ingot",
+	icon: "tinkersaether:valkyrie_ingot",
 	x: -1.0d,
 	y: 0.0d,
 	description: "{greedycraft.quest.847b9b1a.desc}",
@@ -16,7 +16,7 @@
 	rewards: [{
 		uid: "1bd24031",
 		type: "item",
-		item: "contenttweaker:valkyrie_block",
+		item: "tinkersaether:valkyrie_block",
 		count: 2
 	},
 	{

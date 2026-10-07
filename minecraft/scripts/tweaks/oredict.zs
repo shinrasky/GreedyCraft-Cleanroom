@@ -41,9 +41,6 @@ var oredictMap as IIngredient[][IOreDictEntry] = {
     <ore:blockOrichalcos> : [<extrabotany:blockorichalcos>],
     <ore:fallenStar> : [<nyx:fallen_star>],
     <ore:bedrock> : [<minecraft:bedrock>],
-    <ore:ingotValkyrie> : [<contenttweaker:valkyrie_ingot>],
-    <ore:nuggetValkyrie> : [<contenttweaker:valkyrie_nugget>],
-    <ore:blockValkyrie> : [<contenttweaker:valkyrie_block>],
     <ore:gemAncientDebris> : [<netherized:netherite_scrap>],
     <ore:oreAncientDebris> : [<netherized:ancient_debris>],
     <ore:toolTiC> : [

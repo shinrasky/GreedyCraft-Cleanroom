@@ -1322,16 +1322,6 @@ RecipeUtil.addShaped("transmutation_disk", <equivalentintegrations:conjuration_a
     [<ore:ingotAeonsteel>, <additions:energy_matter_core>, <ore:ingotAeonsteel>], 
     [<ore:ingotAeonsteel>, <ore:pearlFluix>, <ore:ingotAeonsteel>]
 ]);
-RecipeUtil.addShaped("ingot_Valkyrie_c", <contenttweaker:valkyrie_ingot>, [
-    [<ore:nuggetValkyrie>, <ore:nuggetValkyrie>, <ore:nuggetValkyrie>],
-    [<ore:nuggetValkyrie>, <ore:nuggetValkyrie>, <ore:nuggetValkyrie>],
-    [<ore:nuggetValkyrie>, <ore:nuggetValkyrie>, <ore:nuggetValkyrie>]
-]);
-RecipeUtil.addShaped("block_Valkyrie", <contenttweaker:valkyrie_block>, [
-    [<ore:ingotValkyrie>, <ore:ingotValkyrie>, <ore:ingotValkyrie>],
-    [<ore:ingotValkyrie>, <ore:ingotValkyrie>, <ore:ingotValkyrie>],
-    [<ore:ingotValkyrie>, <ore:ingotValkyrie>, <ore:ingotValkyrie>]
-]);
 
 /* Templates
 

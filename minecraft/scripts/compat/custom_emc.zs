@@ -213,7 +213,7 @@ val emcMapping as long[IIngredient] = {
     <additions:aqualite_ingot:0> : 5200 as long,
     <tconevo:metal:25> : 6666 as long,
     <mysticalagriculture:fertilized_essence:0> : 0 as long,
-    <contenttweaker:valkyrie_ingot:0> : 6666 as long,
+    <tinkersaether:valkyrie_ingot:0> : 6666 as long,
     <additions:manganese_ingot:0> : 3200 as long,
     <additions:manganese_steel_ingot:0> : 4800 as long,
     <jaopca:singularity.shadowium> : 32400000 as long,

@@ -71,9 +71,3 @@ eTablet.itemRightClick = function(stack, world, player, hand) {
     return "PASS";
 };
 eTablet.register();
-
-var valkyrieIngot = VanillaFactory.createItem("valkyrie_ingot");
-valkyrieIngot.register();
-
-var valkyrieNugget = VanillaFactory.createItem("valkyrie_nugget");
-valkyrieNugget.register();

@@ -7548,7 +7548,7 @@ contenttweaker:aeonsteel - 7545
 contenttweaker:chromasteel - 7546
 contenttweaker:spectre - 7547
 contenttweaker:gaiasteel - 7548
-contenttweaker:valkyrie_block - 7549
+tinkersaether:valkyrie_block - 7549
 contenttweaker:sub_block_holder_0 - 7550
 contenttweaker:sub_block_holder_1 - 7551
 contenttweaker:sub_block_holder_2 - 7552
