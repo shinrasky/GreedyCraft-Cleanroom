@@ -524,12 +524,6 @@ RecipeUtil.addShapeless("essence_super_4", <mysticalagradditions:storage>,
 RecipeUtil.addShapelessOf("rock_crystal_compress", <astralsorcery:blockcustomore:0>,
     <astralsorcery:itemrockcrystalsimple>, 9
 );
-RecipeUtil.addShapeless("nugget_Valkyrie", <contenttweaker:valkyrie_nugget> * 9, 
-    [<ore:ingotValkyrie>]
-);
-RecipeUtil.addShapeless("ingot_Valkyrie_d", <contenttweaker:valkyrie_ingot> * 9, 
-    [<ore:blockValkyrie>]
-);
 
 
 /* Template

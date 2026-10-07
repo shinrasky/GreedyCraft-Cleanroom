@@ -13978,10 +13978,10 @@ botania_tweaks:compressed_tiny_potato_7 - 17660
 botania_tweaks:compressed_tiny_potato_8 - 17661
 botania_tweaks:potted_tiny_potato - 17662
 botania_tweaks:dire_crafty_crate - 17663
-contenttweaker:valkyrie_block - 17664
+tinkersaether:valkyrie_block - 17664
 contenttweaker:tablet_of_enlightenment - 17665
-contenttweaker:valkyrie_ingot - 17666
-contenttweaker:valkyrie_nugget - 17667
+tinkersaether:valkyrie_ingot - 17666
+tinkersaether:valkyrie_nugget - 17667
 contenttweaker:sub_block_holder_0 - 17668
 contenttweaker:sub_block_holder_1 - 17669
 contenttweaker:sub_block_holder_2 - 17670

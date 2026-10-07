@@ -74,7 +74,7 @@ var aspectMap as CTAspectStack[][IIngredient] = {
     <aether_legacy:ambrosium_shard> : [<aspect:caeles> * 20],
     <aether_legacy:zanite_gemstone> : [<aspect:caeles> * 30],
     <aether_legacy:golden_amber> : [<aspect:caeles> * 20],
-    <contenttweaker:valkyrie_ingot> : [<aspect:caeles> * 20],
+    <tinkersaether:valkyrie_ingot> : [<aspect:caeles> * 20],
     <additions:asgardium_ingot> : [<aspect:caeles> * 50, <aspect:lux> * 20],
     <minecraft:clock> : [<aspect:metallum> * 20, <aspect:machina> * 10, <aspect:tempus> * 20],
     <minecraft:repeater> : [<aspect:metallum> * 10, <aspect:machina> * 20, <aspect:tempus> * 10]
