@@ -1,3 +1,8 @@
+/*
+ * This script is created for the GreedyCraft Cleanroom modpack by Shinrasky.
+ * You may NOT use this script in any other publicly distributed modpack without my permission. 
+ */
+
 #priority 20
 
 import crafttweaker.entity.IEntityLivingBase;

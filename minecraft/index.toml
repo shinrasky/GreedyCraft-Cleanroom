@@ -4101,6 +4101,14 @@ file = "bansoukou/MysticalCreations-1.12.2-1.6.1.jar"
 hash = "f48388a7ca414f40bdbc4354e510cbaadef82cee5dbe1ef21120691996106a9e"
 
 [[files]]
+file = "bansoukou/aether-1.12.2-v1.5.4.1.jar"
+hash = "38117e3063b98af55bd912c6b29e28e142655371439871dd23a48ec2f20ce829"
+
+[[files]]
+file = "bansoukou/stacksize-1.12.2-1.0.jar"
+hash = "6fa04da1a1ce12926c4ddc238e10a86da98dc8a85dd147a4dc7fc38633001d26"
+
+[[files]]
 file = "bansoukou/touhoulittlemaid-1.12.2-1.2.5-release.jar"
 hash = "b035037802944fa694ad871facc352d971ff3641224935552b1462122ddfefa1"
 
@@ -25321,7 +25329,7 @@ hash = "64971342ad8c120a7abfa823b9a19c8b0c8a6ffaf86d59298d819824ecd49c8a"
 
 [[files]]
 file = "scripts/tweaks/foodImproved.zs"
-hash = "5b75c9786c88eaa7c8c0d788ec6557bbb37f015a3198ffac03cd3e03750084bb"
+hash = "c5bbd9fdd8c4d3643b232130ee95e0879970aecb21bbb03f00e3d6bd84b1e383"
 
 [[files]]
 file = "scripts/tweaks/harvestlevel.zs"
@@ -25338,6 +25346,10 @@ hash = "bea3d178a907f5ce7049545a2837dc4bdcf9187e106b7bb812b53d439391a936"
 [[files]]
 file = "scripts/tweaks/oredict.zs"
 hash = "c36c34190652b606969e64595980f93a9b3f40e75939d491776d4ad4caa5ae31"
+
+[[files]]
+file = "scripts/tweaks/tconstructElectricityFix.zs"
+hash = "5b3be73d91bcf0f4303235402cc0722524c2651f5c6d6a36c81be4d43ed5990e"
 
 [[files]]
 file = "scripts/tweaks/tooltip.zs"
