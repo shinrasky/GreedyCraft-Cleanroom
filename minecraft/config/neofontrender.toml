@@ -1,0 +1,276 @@
+#Enable/disable the entire font replacement pipeline.
+enabled = true
+fixImeInput = true
+
+[brilliant]
+	bindings = ["g=FF986B31|FFFCE670|FFFCE670|neofontrender:textures/particles/glow.png|FFFCE670|100|200|2-4|1-360|0-1", "s=FF4C5E6F|FFD5EAF8|00000000|neofontrender:textures/particles/glow.png|FFD5EAF8|100|200|2-4|1-360|0-1", "q=FF60241E|FFE77B49|00000000", "v=FFFFFFFF|00000000|00000000|neofontrender:textures/particles/glow_2.png|FFFF4433|20|200|1-2|0-360|0-1"]
+	enabled = true
+
+#Debug logging options.
+[debug]
+	#Log IME input fix details to game log (for diagnosing emoji input issues).
+	imeInput = false
+	#Collect high-frequency font renderer hit/miss/eviction counters, segment counters, and expensive raster pixel statistics for F3/commands. Disable for normal gameplay.
+	renderStats = false
+
+#Text shadow rendering options.
+[shadow]
+	#Modern shadow ARGB color stored as a signed 32-bit integer.
+	color = -16777216
+	#Modern shadow blur radius in pixels.
+	blurRadius = 0.5
+	#Optional foreground-to-shadow overrides, e.g. rgb:FFFFFF=000000;slot:e=6A5200. Empty by default.
+	colorOverrides = ""
+	#Shadow offset distance in pixels.
+	length = 1.0
+	#Comma-separated Unicode code points/ranges whose shadows are skipped, e.g. 1F300-1FAFF,2600-27BF.
+	maskCodepoints = ""
+	#Shadow color mode: vanilla (Minecraft palette), colored (darken each run), or solid (one configured color).
+	colorMode = "colored"
+	#Modern shadow horizontal offset in pixels.
+	offsetX = 1.0
+	#Shadow mode: all, mask (skip color glyphs), emoji (skip Unicode emoji), or none.
+	mode = "mask"
+	#Colored-shadow function: srgb (per-channel multiplier) or linear_light (scale in linear light).
+	coloredFunction = "srgb"
+	#Modern shadow vertical offset in pixels.
+	offsetY = 1.0
+	#Bake a colored soft shadow into the modern backend texture for a single foreground submission.
+	modern = true
+	#Colored-shadow brightness ratio from 0.0 (black) to 1.0 (unchanged foreground).
+	coloredRatio = 0.25
+	#Shadow opacity multiplier (0.0-1.0).
+	opacity = 0.25
+	#Comma-separated font families whose displayable code points skip shadows in mask mode.
+	maskFonts = ""
+
+#OpenGL texture rendering options.
+[rendering]
+	#When advancedStringMode=false, split safe text runs into reusable render-cache tokens. Complex shaping text stays on the full-run path.
+	segmentCache = true
+	#Adaptive raster scale bucket step.
+	adaptiveRasterStep = 0.5
+	#Use a tiny fixed-pipeline-compatible shader to compensate thin anti-aliased glyph edges. Automatically falls back if shader compilation fails.
+	shaderTextPipeline = false
+	#Use a dedicated text draw pipeline that forces straight-alpha blending and restores previous GL state after rendering. Keep this OFF for color emoji; it can alter emoji colors.
+	enhancedTextPipeline = false
+	#Maximum code points kept in one reusable segment before forcing another token boundary.
+	segmentCacheMaxRunCodePoints = 24
+	#Maximum adaptive raster scale bucket.
+	adaptiveRasterMax = 14.0
+	#Force GL_BLEND on for anti-aliased replacement text when Minecraft disables it for bitmap-font rendering.
+	forceBlendForText = true
+	#Text renderer engine: vanilla, sfr, or cosmic.
+	engine = "cosmic"
+	#Multiplier for screen-space SDF edge smoothing. Lower values are crisper; higher values are softer (0.5-2.0).
+	sdfEdgeSoftness = 1.0
+	#SDF distance range in source pixels. Higher values preserve smoother contours at larger scaling but use more raster work (2-8).
+	sdfDistanceRange = 4
+	#Magnification threshold used by excludeHighMagnification.
+	limitMagnification = 3.0
+	#Mipmap LOD bias for orthographic GUI text while adaptiveRasterScale is enabled.
+	overlayMipmapLodBias = -0.5
+	#If the effective font resolution is at or below this value, upload a 2x nearest-neighbor texture to reduce blur.
+	blurReduction = 10.0
+	#Match Minecraft FontRenderer behavior for unknown section-sign formatting codes, including consuming the code pair and resetting styles.
+	vanillaFormattingCompatibility = true
+	#Automatically detect brightness compensation from sample glyph rasterization. When true, rendering.brightness is ignored.
+	brightnessAuto = true
+	#Render complete formatted strings through the shaped-text backend so ligatures, kerning, emoji ZWJ, and BiDi can span the full text. Disable to use per-format-run rendering.
+	advancedStringMode = true
+	#Use a 1.5x-14x adaptive raster scale based on the current framebuffer text scale, and use nearest filtering for 1:1/integer pixel output to avoid over-downsample blur.
+	adaptiveRasterScale = true
+	#Maximum reusable segments produced from one formatted run.
+	segmentCacheMaxSegments = 96
+	#When adaptiveRasterScale is enabled, use nearest filtering when text is magnified far beyond the font texture resolution.
+	excludeHighMagnification = true
+	#Use GL_LINEAR texture filtering instead of GL_NEAREST.
+	interpolation = true
+	#Minimum formatted run length before reusable token segmentation is attempted.
+	segmentCacheMinRunLength = 8
+	#Text edge compensation strength used by the enhanced shader pipeline. 0 disables extra alpha boost; 3 is close to SmoothFont-style defaults.
+	brightness = 0.0
+	#Use the opt-in Cosmic signed-distance-field path for monochrome and flat tintable glyphs. Color gradients and unsupported shader paths fall back to RGBA.
+	sdf = false
+	#Enable mipmapping for font textures (may help at small sizes).
+	mipmap = true
+	#Percent tolerance used when rounding the measured framebuffer text scale.
+	scaleRoundingTolerance = 0.5
+	#Enable anisotropic filtering for perspective/world text while adaptiveRasterScale is enabled.
+	anisotropicFiltering = true
+	#Minimum adaptive raster scale bucket.
+	adaptiveRasterMin = 1.5
+	#When adaptiveRasterScale is enabled, use nearest filtering for near-integer raster/screen scale ratios.
+	excludeIntegerScale = true
+	#Mipmap LOD bias for perspective/world text while adaptiveRasterScale is enabled.
+	mipmapLodBias = -0.3
+	#Minimum effective font resolution where shadow text is allowed to use smooth filtering.
+	smoothShadowThreshold = 24.0
+
+#Input behavior tweaks.
+[input]
+	#Delete a whole Unicode code point in text fields instead of half of an emoji surrogate pair.
+	fixUnicodeTextDeletion = true
+	#Allow Ctrl+V paste in the vanilla sign editor. This is intentionally config-file only.
+	allowSignPaste = true
+
+#Performance tuning options.
+[performance]
+	#Separate LRU limit for character textures and character measurements (each). Allocated on demand; font/style/color/size variants count separately. Larger limits can use substantial GPU memory at high oversampling.
+	monospaceCharacterCacheMaxEntries = 16384
+	#Skip the complete sign TESR when cached multi-point rays are all blocked by opaque full cubes.
+	signBlockOcclusionCulling = true
+	#Never block-occlusion-cull signs closer than this many blocks to avoid near-camera popping.
+	signOcclusionMinDistance = 8.0
+	#Maximum number of Cosmic text measurements kept in memory.
+	measureCacheMaxEntries = 4096
+	#Seconds before an unused Cosmic text texture can be evicted. 0 disables TTL cleanup.
+	textCacheTtlSeconds = 300.0
+	#Pre-bake common Basic Latin and Latin-1 glyphs before enabling replacement rendering.
+	prewarmBasicLatin = true
+	#Maximum number of rendered Cosmic text textures kept in the LRU cache.
+	textCacheMaxEntries = 2048
+	#Skip the complete sign renderer when its model bounds are outside the camera frustum.
+	signTextFrustumCulling = true
+	#How long a sign occlusion result remains fresh while the camera stays within half a block.
+	signOcclusionCacheMillis = 250
+	#Opt-in Cosmic background shaping, rasterization, shadows/SDF and character probes. Exact width measurement and GL uploads remain on the render thread. Pending text uses the vanilla font; a separate native engine uses extra memory. Queue: 128 jobs, ready data: 32 MiB.
+	asyncFontRendering = false
+	#Opt-in Cosmic character caching for fixed-width ASCII, CJK or tabular digits. Validates actual shaping to preserve ligatures and kerning; other text keeps word caching.
+	monospaceCharacterCache = false
+	#Minimum number of rendered Cosmic text textures kept when TTL cleanup runs.
+	textCacheMinEntries = 256
+	#Maximum signs whose block occlusion is refreshed per frame; remaining signs use safe cached results or stay visible.
+	signOcclusionChecksPerFrame = 48
+	#Replace distant sign board/stick boxes with flat textured geometry using the currently bound sign texture.
+	signModelLod = false
+	#Distance in blocks where the low-poly sign model starts.
+	signModelLodDistance = 24.0
+	#Initialize font rasterization on a background thread.
+	asyncInit = true
+	#Use projected-size LOD and screen culling for sign text. The sign model is still rendered.
+	signTextLodCulling = true
+	#Do not submit a sign text line when its projected height is below this many physical framebuffer pixels.
+	signTextMinPixelHeight = 4.0
+
+#Compatibility and text-behavior fixes.
+[fix]
+	#Allow CJK wrapping opportunities while enforcing basic line-start and line-end punctuation rules.
+	cjkLineBreak = true
+
+[ui]
+	#Show NFR's main-menu brand label on vanilla, CMM and FancyMenu title screens. Independent of the nova name switches; no restart required.
+	showMainMenuBranding = true
+
+[laboratory]
+	#Allow Brilliant Text format codes to start in the middle of a line.
+	brilliantAnyPosition = false
+	#Match RGB Chat Vintage by clearing bold/italic/etc. when a #RGB marker starts a new color run.
+	hexChatResetStyles = true
+	#Enable per-field undo/redo history in vanilla and ModularUI text inputs (Ctrl+Z, Ctrl+Y, Ctrl+Shift+Z).
+	textUndoRedo = false
+	#Experimental #RRGGBB chat rendering for the Cosmic text backend.
+	hexChat = false
+
+	#TextAnimator compatibility settings.
+	[laboratory.textAnimator]
+		#Typewriter speed option from the original mod (1-9).
+		typewriterSpeed = 5
+		#Typewriter progression mode: by_char or by_word.
+		typewriterMode = "by_char"
+		#TextAnimator effect filter: all, none, or no_rainbow.
+		effects = "all"
+		#Default maximum brightness for pulse tags without explicit parameters (0.0-1.0).
+		pulseMaximum = 1.0
+		#Enable the independent TextAnimator compatibility provider.
+		enabled = true
+		#Allow TextAnimator tags to start in the middle of a line, such as after a chat sender prefix.
+		anyPosition = true
+		#Default minimum brightness for pulse tags without explicit parameters (0.0-1.0).
+		pulseMinimum = 0.6
+
+#Scoped rendering for the three magic-name lines in the enchanting table only.
+[enchantment]
+	#Editable ordered font list used only by non-vanilla enchanting-table magic names.
+	fonts = ["neofontrender:fonts/sric_minecraft_words.ttf"]
+	#Backend for enchanting-table magic names: vanilla, auto, awt, or cosmic.
+	backend = "awt"
+
+#Compatibility options for third-party mods.
+[compat]
+
+	[compat.custommainmenu]
+		#Keep the nova brand easter egg when Custom Main Menu is installed. On by default; custom menu layout is independent of the brand name. Requires a restart for the mod-list name and keybind labels.
+		novaBranding = true
+
+	[compat.tinkersantique]
+		#Handle Tinkers' Construct / TinkersAntique custom PUA color markers (\uE700-\uE7FF) as invisible color-change characters instead of rendering them as glyphs.
+		enabled = true
+
+		[compat.thaumcraft.tooltip]
+			enabled = true
+
+	[compat.fancymenu]
+		#Keep the nova brand easter egg when FancyMenu is installed. On by default; custom menu layout is independent of the brand name. Requires a restart for the mod-list name and keybind labels.
+		novaBranding = true
+
+	[compat.modernsplash]
+		#Allow the loading-screen font override to patch ModernSplash when it is installed. Requires splash.enabled and a restart.
+		enabled = true
+
+	[compat.colorPalette]
+		#Legacy text color palette: auto, vanilla, runtime, custom, or an API-registered provider id. Runtime reads the final FontRenderer.colorCode modified by other mods.
+		provider = "auto"
+		#Custom palette as 16 or 32 comma-separated RRGGBB values. Sixteen entries derive Minecraft-style shadow colors; 32 entries set them explicitly.
+		custom = "000000,0000AA,00AA00,00AAAA,AA0000,AA00AA,FFAA00,AAAAAA,555555,5555FF,55FF55,55FFFF,FF5555,FF55FF,FFFF55,FFFFFF,000000,00002A,002A00,002A2A,2A0000,2A002A,3F2A00,2A2A2A,151515,15153F,153F15,153F3F,3F1515,3F153F,3F3F15,3F3F3F"
+
+#Forge loading-screen font replacement options.
+[splash]
+	#Replace the Forge loading-screen bitmap font with the configured TTF font. Restart required.
+	enabled = true
+
+#Font selection and rasterization settings.
+[font]
+	#Fallback font names or TTF file paths queried after font.name when a glyph is missing.
+	fallbacks = ["SansSerif"]
+	#AWT text anti-aliasing mode: off, on, gasp, lcd_hrgb, lcd_hbgr, lcd_vrgb, lcd_vbgr.
+	antialiasMode = "on"
+	#Align each font's measured AWT baseline to the Minecraft reference baseline before manual shift.
+	autoBaseline = true
+	#Enable fractional font metrics for more precise positioning.
+	fractionalMetrics = true
+	#Additional vertical glyph shift in Minecraft pixels after automatic baseline alignment. Positive moves glyphs down.
+	baselineShift = 0.0
+	#Variable font wght axis for regular text. 0=auto, otherwise 1-1000.
+	variableWeight = 0
+	#Optional primary TTF/OTF/TTC source. Game-folder fonts use a portable neofontrender/fonts/... path.
+	path = "neofontrender/fonts/font.ttf"
+	#Always append bundled fonts, such as Noto Color Emoji, to the fallback family.
+	builtinFallbacks = true
+	#Minecraft-space baseline used by autoBaseline. Vanilla 8px UI text is approximately 7.0.
+	referenceBaseline = 7.0
+	#Font size in pixels. 8.5 is the default.
+	size = 8.5
+	#Enable AWT anti-aliasing during glyph rasterization.
+	antialias = true
+	#Primary font family/display name. This field never stores a file path.
+	name = "Product Sans + Noto Sans CJK SC + Nowar Sans CN"
+	#Rasterization oversampling factor. Raster resolution is size * oversample; 8.0 at size 8.0 is a 64px glyph raster.
+	oversample = 12.0
+	#Font style: 0=Plain, 1=Bold, 2=Italic, 3=Bold+Italic.
+	style = 0
+	#Enable LCD subpixel anti-aliasing for compatible AWT rasterization paths. It may show color fringes on unsupported display layouts.
+	lcdSubpixel = false
+
+	#Optional Cosmic face overrides. Empty values use family and variable-weight auto matching.
+	[font.cosmic]
+		#Cosmic bold face override: system face name, local font path, or resource location.
+		bold = ""
+		#For non-regular overrides, select the configured font without additionally requesting bold or italic styling. Empty overrides still use automatic family style matching.
+		variantOverridesOnlySwitchFont = false
+		#Cosmic bold-italic face override: system face name, local font path, or resource location.
+		boldItalic = ""
+		#Cosmic italic face override: system face name, local font path, or resource location.
+		italic = ""
+		#Cosmic regular face override: system face name, local font path, or resource location.
+		regular = ""

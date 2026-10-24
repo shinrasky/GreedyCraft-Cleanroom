@@ -1,12 +1,12 @@
 name = "GreedyCraft"
 author = "TCreopargh"
-version = "1.38.1"
+version = "1.38.2"
 pack-format = "packwiz:1.1.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "0e087c908680879271e470023e9d8e8636bfb3fa50642f9d9a77ddc3ef2ee540"
+hash = "7e5da6ba3e909905343d3e4b2c9032910c2b38038f32426034333b477a5cb089"
 
 [versions]
 forge = "14.23.5.2860"

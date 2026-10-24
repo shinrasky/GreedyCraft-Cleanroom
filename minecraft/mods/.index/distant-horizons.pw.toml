@@ -1,0 +1,12 @@
+name = "Distant Horizons: A Level of Detail mod"
+filename = "DistantHorizons-3.3.3-1.12.2-forge.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "ffe0a2b83c9b1870fa48b8c5295bb3688fe2a9be"
+mode = "metadata:curseforge"
+
+[update.curseforge]
+file-id = 9004743
+project-id = 508933
